@@ -1,0 +1,33 @@
+﻿LogMessageTime:2014/11/18 0:49:58
+LogMessageType:Error
+LogMessageContent:初始化IC卡读写器失败，请检查连接是否正确。返回码：
+LogMessageTime:2014/11/18 1:08:26
+LogMessageType:Error
+LogMessageContent:升级程序发生异常！UpdateApplication:调用的目标发生了异常。
+LogMessageTime:2014/11/18 1:14:31
+LogMessageType:Error
+LogMessageContent:升级程序发生异常！UpdateApplication:调用的目标发生了异常。
+LogMessageTime:2014/11/18 1:25:14
+LogMessageType:Error
+LogMessageContent:升级程序发生异常！UpdateApplication:调用的目标发生了异常。
+LogMessageTime:2014/11/18 1:25:17
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2014/11/18 1:25:38
+LogMessageType:Error
+LogMessageContent:获取公告发生异常！DownloadGroupInfo:调用的目标发生了异常。
+LogMessageTime:2014/11/18 1:25:59
+LogMessageType:Error
+LogMessageContent:获取学生数据发生异常！DownloadStudentInfo:调用的目标发生了异常。
+LogMessageTime:2014/11/18 1:26:23
+LogMessageType:Error
+LogMessageContent:获取家长数据发生异常！DownloadParentInfo:调用的目标发生了异常。
+LogMessageTime:2014/11/18 1:26:46
+LogMessageType:Error
+LogMessageContent:获取IC卡数据发生异常！DownloadCardInfo:调用的目标发生了异常。
+LogMessageTime:2014/11/18 1:27:18
+LogMessageType:Error
+LogMessageContent:初始化IC卡读写器失败，请检查连接是否正确。返回码：
+LogMessageTime:2014/11/18 1:29:18
+LogMessageType:Error
+LogMessageContent:初始化IC卡读写器失败，请检查连接是否正确。返回码：

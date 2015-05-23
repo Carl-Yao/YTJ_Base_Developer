@@ -1,0 +1,54 @@
+﻿LogMessageTime:2014/11/22 20:01:40
+LogMessageType:Error
+LogMessageContent:升级程序发生异常！UpdateApplication:调用的目标发生了异常。
+LogMessageTime:2014/11/22 20:05:36
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2014/11/22 20:05:56
+LogMessageType:Error
+LogMessageContent:获取公告发生异常！DownloadGroupInfo:调用的目标发生了异常。
+LogMessageTime:2014/11/22 20:06:17
+LogMessageType:Error
+LogMessageContent:获取学生数据发生异常！DownloadStudentInfo:调用的目标发生了异常。
+LogMessageTime:2014/11/22 20:13:24
+LogMessageType:Error
+LogMessageContent:获取家长数据发生异常！DownloadParentInfo:调用的目标发生了异常。
+LogMessageTime:2014/11/22 20:15:35
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2014/11/22 20:15:56
+LogMessageType:Error
+LogMessageContent:获取公告发生异常！DownloadGroupInfo:调用的目标发生了异常。
+LogMessageTime:2014/11/22 20:22:57
+LogMessageType:Error
+LogMessageContent:获取IC卡数据发生异常！DownloadCardInfo:调用的目标发生了异常。
+LogMessageTime:2014/11/22 20:26:01
+LogMessageType:Error
+LogMessageContent:初始化IC卡读写器失败，请检查连接是否正确。返回码：
+LogMessageTime:2014/11/22 20:26:08
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/11/22 20:37:08
+LogMessageType:Error
+LogMessageContent:升级程序发生异常！UpdateApplication:调用的目标发生了异常。
+LogMessageTime:2014/11/22 20:52:49
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2014/11/22 20:53:09
+LogMessageType:Error
+LogMessageContent:获取公告发生异常！DownloadGroupInfo:调用的目标发生了异常。
+LogMessageTime:2014/11/22 20:53:30
+LogMessageType:Error
+LogMessageContent:获取学生数据发生异常！DownloadStudentInfo:调用的目标发生了异常。
+LogMessageTime:2014/11/22 20:57:12
+LogMessageType:Error
+LogMessageContent:获取家长数据发生异常！DownloadParentInfo:调用的目标发生了异常。
+LogMessageTime:2014/11/22 21:02:45
+LogMessageType:Error
+LogMessageContent:获取IC卡数据发生异常！DownloadCardInfo:调用的目标发生了异常。
+LogMessageTime:2014/11/22 21:03:02
+LogMessageType:Error
+LogMessageContent:初始化IC卡读写器失败，请检查连接是否正确。返回码：
+LogMessageTime:2014/11/22 21:03:09
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！

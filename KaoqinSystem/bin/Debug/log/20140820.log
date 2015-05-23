@@ -1,0 +1,996 @@
+﻿LogMessageTime:2014/8/20 22:51:14
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/8/20 22:51:14
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/8/20 22:51:14
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/8/20 22:51:14
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/8/20 22:51:14
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/8/20 22:51:14
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/8/20 22:51:14
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/8/20 22:51:14
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/8/20 22:52:29
+LogMessageType:Error
+LogMessageContent:获取公告发生异常！DownloadGroupInfo:请求通道在等待 00:00:59.9990023 以后答复时超时。增加传递给请求调用的超时值，或者增加绑定上的 SendTimeout 值。分配给此操作的时间可能已经是更长超时的一部分。
+LogMessageTime:2014/8/20 22:53:25
+LogMessageType:Error
+LogMessageContent:获取公告发生异常！DownloadGroupInfo:没有终结点在侦听可以接受消息的 http://119.252.247.222:8080/ismsapp/webservice/terminalservice。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。
+LogMessageTime:2014/8/20 22:53:28
+LogMessageType:Error
+LogMessageContent:获取公告发生异常！DownloadGroupInfo:没有终结点在侦听可以接受消息的 http://119.252.247.222:8080/ismsapp/webservice/terminalservice。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。
+LogMessageTime:2014/8/20 22:53:29
+LogMessageType:Error
+LogMessageContent:获取公告发生异常！DownloadGroupInfo:没有终结点在侦听可以接受消息的 http://119.252.247.222:8080/ismsapp/webservice/terminalservice。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。
+LogMessageTime:2014/8/20 22:53:30
+LogMessageType:Error
+LogMessageContent:获取公告发生异常！DownloadGroupInfo:没有终结点在侦听可以接受消息的 http://119.252.247.222:8080/ismsapp/webservice/terminalservice。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。
+LogMessageTime:2014/8/20 22:53:31
+LogMessageType:Error
+LogMessageContent:获取公告发生异常！DownloadGroupInfo:没有终结点在侦听可以接受消息的 http://119.252.247.222:8080/ismsapp/webservice/terminalservice。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。
+LogMessageTime:2014/8/20 22:56:11
+LogMessageType:Warning
+LogMessageContent:未连网，请先联网！
+LogMessageTime:2014/8/20 22:56:21
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/8/20 22:56:21
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/8/20 22:56:21
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/8/20 22:56:21
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/8/20 22:56:21
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/8/20 22:56:21
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/8/20 22:56:21
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/8/20 22:56:21
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/8/20 22:57:04
+LogMessageType:Warning
+LogMessageContent:未连网，请先联网！
+LogMessageTime:2014/8/20 22:57:17
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/8/20 22:57:17
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/8/20 22:57:17
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/8/20 22:57:17
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/8/20 22:57:17
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/8/20 22:57:17
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/8/20 22:57:17
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/8/20 22:57:17
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/8/20 22:57:17
+LogMessageType:Error
+LogMessageContent:更新考勤记录失败！UdateKaoqinRecord：Table 'mysql.tb_kaoqin' doesn't exist
+LogMessageTime:2014/8/20 22:59:22
+LogMessageType:Warning
+LogMessageContent:未连网，请先联网！
+LogMessageTime:2014/8/20 23:01:07
+LogMessageType:Warning
+LogMessageContent:未连网，请先联网！
+LogMessageTime:2014/8/20 23:01:10
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/8/20 23:01:10
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/8/20 23:01:10
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/8/20 23:01:10
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/8/20 23:01:10
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/8/20 23:01:10
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/8/20 23:01:10
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/8/20 23:01:10
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/8/20 23:04:33
+LogMessageType:Error
+LogMessageContent:获取公告发生异常！DownloadGroupInfo:请求通道在等待 00:01:00 以后答复时超时。增加传递给请求调用的超时值，或者增加绑定上的 SendTimeout 值。分配给此操作的时间可能已经是更长超时的一部分。
+LogMessageTime:2014/8/20 23:06:29
+LogMessageType:Warning
+LogMessageContent:未连网，请先联网！
+LogMessageTime:2014/8/20 23:08:46
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2014/8/20 23:10:53
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2014/8/20 23:11:09
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/8/20 23:11:09
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/8/20 23:11:09
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/8/20 23:11:09
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/8/20 23:11:09
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/8/20 23:11:09
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/8/20 23:11:09
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/8/20 23:11:09
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/8/20 23:11:28
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/8/20 23:11:28
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/8/20 23:11:28
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/8/20 23:11:28
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/8/20 23:11:28
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/8/20 23:11:28
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/8/20 23:11:28
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/8/20 23:11:28
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/8/20 23:15:04
+LogMessageType:Warning
+LogMessageContent:未连网，请先联网！
+LogMessageTime:2014/8/20 23:15:07
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/8/20 23:15:07
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/8/20 23:15:07
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/8/20 23:15:07
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/8/20 23:15:07
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/8/20 23:15:07
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/8/20 23:15:07
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/8/20 23:15:07
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/8/20 23:16:46
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2014/8/20 23:23:41
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2014/8/20 23:23:47
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/8/20 23:23:47
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/8/20 23:23:47
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/8/20 23:23:47
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/8/20 23:23:47
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/8/20 23:23:47
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/8/20 23:23:47
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/8/20 23:23:47
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/8/20 23:24:35
+LogMessageType:Error
+LogMessageContent:获取公告发生异常！DownloadGroupInfo:请求通道在等待 00:00:59.9990323 以后答复时超时。增加传递给请求调用的超时值，或者增加绑定上的 SendTimeout 值。分配给此操作的时间可能已经是更长超时的一部分。
+LogMessageTime:2014/8/20 23:31:19
+LogMessageType:Warning
+LogMessageContent:未连网，请先联网！
+LogMessageTime:2014/8/20 23:32:31
+LogMessageType:Warning
+LogMessageContent:未连网，请先联网！
+LogMessageTime:2014/8/20 23:32:34
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/8/20 23:32:34
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/8/20 23:32:34
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/8/20 23:32:34
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/8/20 23:32:34
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/8/20 23:32:34
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/8/20 23:32:34
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/8/20 23:32:34
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/8/20 23:32:35
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/8/20 23:32:35
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/8/20 23:32:35
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/8/20 23:32:35
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/8/20 23:32:35
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/8/20 23:32:35
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/8/20 23:32:35
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/8/20 23:32:35
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/8/20 23:32:36
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/8/20 23:32:36
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/8/20 23:32:36
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/8/20 23:32:36
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/8/20 23:32:36
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/8/20 23:32:36
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/8/20 23:32:36
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/8/20 23:32:36
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/8/20 23:32:36
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/8/20 23:32:36
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/8/20 23:32:36
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/8/20 23:32:36
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/8/20 23:32:36
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/8/20 23:32:36
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/8/20 23:32:36
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/8/20 23:32:36
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/8/20 23:32:37
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/8/20 23:32:37
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/8/20 23:32:37
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/8/20 23:32:37
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/8/20 23:32:37
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/8/20 23:32:37
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/8/20 23:32:37
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/8/20 23:32:37
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/8/20 23:32:38
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/8/20 23:32:38
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/8/20 23:32:38
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/8/20 23:32:38
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/8/20 23:32:38
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/8/20 23:32:38
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/8/20 23:32:38
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/8/20 23:32:38
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/8/20 23:32:39
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/8/20 23:32:39
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/8/20 23:32:39
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/8/20 23:32:39
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/8/20 23:32:39
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/8/20 23:32:39
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/8/20 23:32:39
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/8/20 23:32:39
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/8/20 23:32:39
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/8/20 23:32:39
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/8/20 23:32:39
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/8/20 23:32:39
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/8/20 23:32:39
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/8/20 23:32:39
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/8/20 23:32:39
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/8/20 23:32:39
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/8/20 23:32:40
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/8/20 23:32:40
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/8/20 23:32:40
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/8/20 23:32:40
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/8/20 23:32:40
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/8/20 23:32:40
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/8/20 23:32:40
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/8/20 23:32:40
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/8/20 23:32:40
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/8/20 23:32:40
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/8/20 23:32:40
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/8/20 23:32:40
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/8/20 23:32:40
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/8/20 23:32:40
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/8/20 23:32:40
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/8/20 23:32:40
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/8/20 23:41:44
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2014/8/20 23:42:46
+LogMessageType:Error
+LogMessageContent:获取公告发生异常！DownloadGroupInfo:请求通道在等待 00:01:00 以后答复时超时。增加传递给请求调用的超时值，或者增加绑定上的 SendTimeout 值。分配给此操作的时间可能已经是更长超时的一部分。
+LogMessageTime:2014/8/20 23:51:39
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2014/8/20 23:51:49
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/8/20 23:51:49
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/8/20 23:51:49
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/8/20 23:51:49
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/8/20 23:51:49
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/8/20 23:51:49
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/8/20 23:51:49
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/8/20 23:51:49
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/8/20 23:51:50
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/8/20 23:51:50
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/8/20 23:51:50
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/8/20 23:51:50
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/8/20 23:51:50
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/8/20 23:51:50
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/8/20 23:51:50
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/8/20 23:51:50
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/8/20 23:51:50
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/8/20 23:51:50
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/8/20 23:51:50
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/8/20 23:51:50
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/8/20 23:51:50
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/8/20 23:51:50
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/8/20 23:51:50
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/8/20 23:51:50
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/8/20 23:51:50
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/8/20 23:51:50
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/8/20 23:51:50
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/8/20 23:51:50
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/8/20 23:51:50
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/8/20 23:51:50
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/8/20 23:51:50
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/8/20 23:51:51
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/8/20 23:51:51
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/8/20 23:51:51
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/8/20 23:51:51
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/8/20 23:51:51
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/8/20 23:51:51
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/8/20 23:51:51
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/8/20 23:51:51
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/8/20 23:51:51
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/8/20 23:51:51
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/8/20 23:51:51
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/8/20 23:51:51
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/8/20 23:51:51
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/8/20 23:51:51
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/8/20 23:51:51
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/8/20 23:51:51
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/8/20 23:51:51
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/8/20 23:51:52
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/8/20 23:51:52
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/8/20 23:51:52
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/8/20 23:51:52
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/8/20 23:51:52
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/8/20 23:51:52
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/8/20 23:51:52
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/8/20 23:51:52
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/8/20 23:51:52
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/8/20 23:51:52
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/8/20 23:51:52
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/8/20 23:51:52
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/8/20 23:51:52
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/8/20 23:51:52
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/8/20 23:51:52
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/8/20 23:51:52
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/8/20 23:51:53
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/8/20 23:51:53
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/8/20 23:51:53
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/8/20 23:51:53
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/8/20 23:51:53
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/8/20 23:51:53
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/8/20 23:51:53
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/8/20 23:51:53
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/8/20 23:52:24
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/8/20 23:52:24
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/8/20 23:52:24
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/8/20 23:52:24
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/8/20 23:52:24
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/8/20 23:52:24
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/8/20 23:52:24
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/8/20 23:52:24
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/8/20 23:52:25
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/8/20 23:52:25
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/8/20 23:52:25
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/8/20 23:52:25
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/8/20 23:52:25
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/8/20 23:52:25
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/8/20 23:52:25
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/8/20 23:52:25
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/8/20 23:52:25
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/8/20 23:52:25
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/8/20 23:52:25
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/8/20 23:52:25
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/8/20 23:52:25
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/8/20 23:52:25
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/8/20 23:52:25
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/8/20 23:52:25
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/8/20 23:52:26
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/8/20 23:52:26
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/8/20 23:52:26
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/8/20 23:52:26
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/8/20 23:52:26
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/8/20 23:52:26
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/8/20 23:52:26
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/8/20 23:52:26
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/8/20 23:52:26
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/8/20 23:52:26
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/8/20 23:52:26
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/8/20 23:52:26
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/8/20 23:52:26
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/8/20 23:52:26
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/8/20 23:52:26
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/8/20 23:52:26
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/8/20 23:53:07
+LogMessageType:Error
+LogMessageContent:UploadDataAll-->请求通道在等待 00:00:59.9509925 以后答复时超时。增加传递给请求调用的超时值，或者增加绑定上的 SendTimeout 值。分配给此操作的时间可能已经是更长超时的一部分。
+LogMessageTime:2014/8/20 23:55:08
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2014/8/20 23:55:34
+LogMessageType:Error
+LogMessageContent:上传考勤记录失败！
+LogMessageTime:2014/8/20 23:56:25
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/8/20 23:56:25
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/8/20 23:56:25
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/8/20 23:56:25
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/8/20 23:56:25
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/8/20 23:56:25
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/8/20 23:56:25
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/8/20 23:56:25
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/8/20 23:56:25
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/8/20 23:56:25
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/8/20 23:56:25
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/8/20 23:56:25
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/8/20 23:56:25
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/8/20 23:56:25
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/8/20 23:56:25
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/8/20 23:56:25
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/8/20 23:56:25
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/8/20 23:56:25
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/8/20 23:56:25
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/8/20 23:56:25
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/8/20 23:56:25
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/8/20 23:56:25
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/8/20 23:56:25
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/8/20 23:56:25
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/8/20 23:56:26
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/8/20 23:56:26
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/8/20 23:56:26
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/8/20 23:56:26
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/8/20 23:56:26
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/8/20 23:56:26
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/8/20 23:56:26
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/8/20 23:56:26
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/8/20 23:56:27
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/8/20 23:56:27
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/8/20 23:56:27
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/8/20 23:56:27
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/8/20 23:56:27
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/8/20 23:56:27
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/8/20 23:56:27
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/8/20 23:56:27
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/8/20 23:56:28
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/8/20 23:56:28
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/8/20 23:56:28
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/8/20 23:56:28
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/8/20 23:56:28
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/8/20 23:56:28
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/8/20 23:56:28
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/8/20 23:56:28
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/8/20 23:56:40
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！

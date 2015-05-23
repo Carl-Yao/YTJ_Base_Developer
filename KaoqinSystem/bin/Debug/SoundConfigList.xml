@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Sounds>
+  <sound soundName="托（一）班" soundFrequency="0" />
+  <sound soundName="托（二）班" soundFrequency="0" />
+  <sound soundName="小（一）班" soundFrequency="0" />
+  <sound soundName="小（二）班" soundFrequency="0" />
+  <sound soundName="中（一）班" soundFrequency="0" />
+</Sounds>

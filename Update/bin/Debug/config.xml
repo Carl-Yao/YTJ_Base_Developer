@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Config>
+  <IsFirstUpdate>False</IsFirstUpdate>
+  <InstitutionID>1001</InstitutionID>
+  <InstitutionName>广州市第一幼儿园</InstitutionName>
+  <StudentSumNumber>32</StudentSumNumber>
+  <ServiceUrl>http://119.252.247.222:8080/ismsapp/webservice/terminalservice.asmx?WSDL</ServiceUrl>
+  <AdminAccount>
+    <Name>1</Name>
+    <Password>1</Password>
+  </AdminAccount>
+  <StandardAccount>
+    <Name>2</Name>
+    <Password>2</Password>
+  </StandardAccount>
+  <BeginTime>
+    <Hour>9</Hour>
+    <Minute>0</Minute>
+  </BeginTime>
+  <EndTime>
+    <Hour>15</Hour>
+    <Minute>0</Minute>
+  </EndTime>
+  <ClearRecordFrequencyByDay>30</ClearRecordFrequencyByDay>
+  <WaitTimeForToPosterBySecond>30</WaitTimeForToPosterBySecond>
+  <LastClearRecordDay>234</LastClearRecordDay>
+  <DateBaseName>db_kaoqinsystem</DateBaseName>
+  <KaoqinTableName>tb_kaoqin</KaoqinTableName>
+  <CardTableName>tb_card</CardTableName>
+  <FamilyTableName>tb_family</FamilyTableName>
+  <InstitutionTableName>tb_institution</InstitutionTableName>
+  <StudentTableName>tb_student</StudentTableName>
+  <KaoqinTableUpdateTime>1</KaoqinTableUpdateTime>
+  <CardTableUpdateTime>2014-08-23 11:27:31</CardTableUpdateTime>
+  <FamilyTableUpdateTime>2014-08-23 11:27:31</FamilyTableUpdateTime>
+  <InstitutionTableUpdateTime>1</InstitutionTableUpdateTime>
+  <StudentTableUpdateTime>2014-08-23 11:27:30</StudentTableUpdateTime>
+  <ConnectionString>Database='mysql';Data Source='localhost';User Id='root';Password='root';charset='utf8';pooling=true</ConnectionString>
+  <Notice>园区节目@今晚幼师统一培训！@2014-08-02 13:53</Notice>
+</Config>

@@ -1,0 +1,213 @@
+﻿LogMessageTime:2014/10/19 14:58:43
+LogMessageType:Error
+LogMessageContent:初始化IC卡读写器失败，请检查连接是否正确。返回码：
+LogMessageTime:2014/10/19 14:58:54
+LogMessageType:Error
+LogMessageContent:System.Byte[]
+LogMessageTime:2014/10/19 15:30:20
+LogMessageType:Error
+LogMessageContent:获取家长数据发生异常！DownloadParentInfo:调用的目标发生了异常。
+LogMessageTime:2014/10/19 15:31:16
+LogMessageType:Error
+LogMessageContent:初始化IC卡读写器失败，请检查连接是否正确。返回码：
+LogMessageTime:2014/10/19 15:33:59
+LogMessageType:Error
+LogMessageContent:初始化IC卡读写器失败，请检查连接是否正确。返回码：
+LogMessageTime:2014/10/19 15:36:08
+LogMessageType:Error
+LogMessageContent:初始化IC卡读写器失败，请检查连接是否正确。返回码：
+LogMessageTime:2014/10/19 15:39:45
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/10/19 15:39:45
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/10/19 15:39:45
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/10/19 15:39:45
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/10/19 15:39:45
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/10/19 15:39:45
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/10/19 15:39:45
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/10/19 15:39:45
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/10/19 15:49:12
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/10/19 15:49:12
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/10/19 15:49:12
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/10/19 15:49:12
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/10/19 15:49:12
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/10/19 15:49:12
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/10/19 15:49:12
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/10/19 15:49:12
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/10/19 15:50:08
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/10/19 15:50:08
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/10/19 15:50:08
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/10/19 15:50:08
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/10/19 15:50:08
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/10/19 15:50:08
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/10/19 15:50:08
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/10/19 15:50:08
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/10/19 15:51:51
+LogMessageType:Error
+LogMessageContent:UploadDataOne调用的目标发生了异常。
+LogMessageTime:2014/10/19 16:11:03
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/10/19 16:11:03
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/10/19 16:11:03
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/10/19 16:11:03
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/10/19 16:11:03
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/10/19 16:11:03
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/10/19 16:11:03
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/10/19 16:11:03
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/10/19 16:11:14
+LogMessageType:Error
+LogMessageContent:System.Byte[]
+LogMessageTime:2014/10/19 16:11:40
+LogMessageType:Error
+LogMessageContent:System.Byte[]
+LogMessageTime:2014/10/19 16:12:39
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/10/19 16:12:39
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/10/19 16:12:39
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/10/19 16:12:39
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/10/19 16:12:39
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/10/19 16:12:39
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/10/19 16:12:39
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/10/19 16:12:39
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/10/19 16:15:09
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/10/19 16:15:09
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/10/19 16:15:09
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/10/19 16:15:09
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/10/19 16:15:09
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/10/19 16:15:09
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/10/19 16:15:09
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/10/19 16:15:09
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/10/19 16:15:22
+LogMessageType:Error
+LogMessageContent:System.Byte[]
+LogMessageTime:2014/10/19 16:16:13
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/10/19 16:16:13
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/10/19 16:16:13
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/10/19 16:16:13
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/10/19 16:16:13
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/10/19 16:16:13
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/10/19 16:16:13
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/10/19 16:16:13
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/10/19 16:16:21
+LogMessageType:Error
+LogMessageContent:UploadDataOne调用的目标发生了异常。
+LogMessageTime:2014/10/19 17:02:33
+LogMessageType:Error
+LogMessageContent:初始化IC卡读写器失败，请检查连接是否正确。返回码：
+LogMessageTime:2014/10/19 17:02:36
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/10/19 17:03:12
+LogMessageType:Error
+LogMessageContent:初始化IC卡读写器失败，请检查连接是否正确。返回码：
+LogMessageTime:2014/10/19 17:03:14
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！

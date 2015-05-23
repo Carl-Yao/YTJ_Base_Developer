@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="org.isms.server.server" xmlns:ns1="http://schemas.xmlsoap.org/soap/http" name="TerminalServiceImplService" targetNamespace="org.isms.server.server" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xs:schema elementFormDefault="unqualified" targetNamespace="org.isms.server.server" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="checkonbatch" type="tns:checkonbatch" />
+      <xs:element name="checkonbatchResponse" type="tns:checkonbatchResponse" />
+      <xs:element name="checkonone" type="tns:checkonone" />
+      <xs:element name="checkononeResponse" type="tns:checkononeResponse" />
+      <xs:element name="checkonpic" type="tns:checkonpic" />
+      <xs:element name="checkonpicResponse" type="tns:checkonpicResponse" />
+      <xs:element name="grouptree" type="tns:grouptree" />
+      <xs:element name="grouptreeResponse" type="tns:grouptreeResponse" />
+      <xs:element name="iccardinfoadd" type="tns:iccardinfoadd" />
+      <xs:element name="iccardinfoaddResponse" type="tns:iccardinfoaddResponse" />
+      <xs:element name="iccardinfoall" type="tns:iccardinfoall" />
+      <xs:element name="iccardinfoallResponse" type="tns:iccardinfoallResponse" />
+      <xs:element name="newnoticeinfo" type="tns:newnoticeinfo" />
+      <xs:element name="newnoticeinfoResponse" type="tns:newnoticeinfoResponse" />
+      <xs:element name="parentinfoadd" type="tns:parentinfoadd" />
+      <xs:element name="parentinfoaddResponse" type="tns:parentinfoaddResponse" />
+      <xs:element name="parentinfoall" type="tns:parentinfoall" />
+      <xs:element name="parentinfoallResponse" type="tns:parentinfoallResponse" />
+      <xs:element name="parentpic" type="tns:parentpic" />
+      <xs:element name="parentpicResponse" type="tns:parentpicResponse" />
+      <xs:element name="studentpic" type="tns:studentpic" />
+      <xs:element name="studentpicResponse" type="tns:studentpicResponse" />
+      <xs:element name="studentsinfoadd" type="tns:studentsinfoadd" />
+      <xs:element name="studentsinfoaddResponse" type="tns:studentsinfoaddResponse" />
+      <xs:element name="studentsinfoall" type="tns:studentsinfoall" />
+      <xs:element name="studentsinfoallResponse" type="tns:studentsinfoallResponse" />
+      <xs:element name="updatefile" type="tns:updatefile" />
+      <xs:element name="updatefileResponse" type="tns:updatefileResponse" />
+      <xs:complexType name="grouptree">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="inputJson" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="grouptreeResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" form="qualified" name="returnJson" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="parentinfoall">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="inputJson" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="parentinfoallResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" form="qualified" name="returnJson" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="updatefile">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="inputJson" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="updatefileResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" form="qualified" name="returnJson" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="parentpic">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="inputJson" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="parentpicResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" form="qualified" name="returnJson" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="checkonone">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="inputJson" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="checkononeResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" form="qualified" name="returnJson" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="iccardinfoall">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="inputJson" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="iccardinfoallResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" form="qualified" name="returnJson" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="newnoticeinfo">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="inputJson" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="newnoticeinfoResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" form="qualified" name="returnJson" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="parentinfoadd">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="inputJson" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="parentinfoaddResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" form="qualified" name="returnJson" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="checkonbatch">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="inputJson" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="checkonbatchResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" form="qualified" name="returnJson" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="iccardinfoadd">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="inputJson" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="iccardinfoaddResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" form="qualified" name="returnJson" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="studentpic">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="inputJson" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="studentpicResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" form="qualified" name="returnJson" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="checkonpic">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="inputJson" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="checkonpicResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" form="qualified" name="returnJson" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="studentsinfoall">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="inputJson" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="studentsinfoallResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" form="qualified" name="returnJson" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="studentsinfoadd">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="inputJson" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="studentsinfoaddResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" form="qualified" name="returnJson" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="grouptree">
+    <wsdl:part name="parameters" element="tns:grouptree" />
+  </wsdl:message>
+  <wsdl:message name="checkonone">
+    <wsdl:part name="parameters" element="tns:checkonone" />
+  </wsdl:message>
+  <wsdl:message name="updatefileResponse">
+    <wsdl:part name="parameters" element="tns:updatefileResponse" />
+  </wsdl:message>
+  <wsdl:message name="checkonbatchResponse">
+    <wsdl:part name="parameters" element="tns:checkonbatchResponse" />
+  </wsdl:message>
+  <wsdl:message name="parentpicResponse">
+    <wsdl:part name="parameters" element="tns:parentpicResponse" />
+  </wsdl:message>
+  <wsdl:message name="parentinfoadd">
+    <wsdl:part name="parameters" element="tns:parentinfoadd" />
+  </wsdl:message>
+  <wsdl:message name="updatefile">
+    <wsdl:part name="parameters" element="tns:updatefile" />
+  </wsdl:message>
+  <wsdl:message name="newnoticeinfoResponse">
+    <wsdl:part name="parameters" element="tns:newnoticeinfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="parentpic">
+    <wsdl:part name="parameters" element="tns:parentpic" />
+  </wsdl:message>
+  <wsdl:message name="iccardinfoallResponse">
+    <wsdl:part name="parameters" element="tns:iccardinfoallResponse" />
+  </wsdl:message>
+  <wsdl:message name="studentsinfoaddResponse">
+    <wsdl:part name="parameters" element="tns:studentsinfoaddResponse" />
+  </wsdl:message>
+  <wsdl:message name="iccardinfoall">
+    <wsdl:part name="parameters" element="tns:iccardinfoall" />
+  </wsdl:message>
+  <wsdl:message name="studentsinfoadd">
+    <wsdl:part name="parameters" element="tns:studentsinfoadd" />
+  </wsdl:message>
+  <wsdl:message name="newnoticeinfo">
+    <wsdl:part name="parameters" element="tns:newnoticeinfo" />
+  </wsdl:message>
+  <wsdl:message name="checkonpic">
+    <wsdl:part name="parameters" element="tns:checkonpic" />
+  </wsdl:message>
+  <wsdl:message name="parentinfoallResponse">
+    <wsdl:part name="parameters" element="tns:parentinfoallResponse" />
+  </wsdl:message>
+  <wsdl:message name="iccardinfoaddResponse">
+    <wsdl:part name="parameters" element="tns:iccardinfoaddResponse" />
+  </wsdl:message>
+  <wsdl:message name="parentinfoaddResponse">
+    <wsdl:part name="parameters" element="tns:parentinfoaddResponse" />
+  </wsdl:message>
+  <wsdl:message name="studentpicResponse">
+    <wsdl:part name="parameters" element="tns:studentpicResponse" />
+  </wsdl:message>
+  <wsdl:message name="studentpic">
+    <wsdl:part name="parameters" element="tns:studentpic" />
+  </wsdl:message>
+  <wsdl:message name="iccardinfoadd">
+    <wsdl:part name="parameters" element="tns:iccardinfoadd" />
+  </wsdl:message>
+  <wsdl:message name="studentsinfoallResponse">
+    <wsdl:part name="parameters" element="tns:studentsinfoallResponse" />
+  </wsdl:message>
+  <wsdl:message name="checkonpicResponse">
+    <wsdl:part name="parameters" element="tns:checkonpicResponse" />
+  </wsdl:message>
+  <wsdl:message name="studentsinfoall">
+    <wsdl:part name="parameters" element="tns:studentsinfoall" />
+  </wsdl:message>
+  <wsdl:message name="parentinfoall">
+    <wsdl:part name="parameters" element="tns:parentinfoall" />
+  </wsdl:message>
+  <wsdl:message name="grouptreeResponse">
+    <wsdl:part name="parameters" element="tns:grouptreeResponse" />
+  </wsdl:message>
+  <wsdl:message name="checkonbatch">
+    <wsdl:part name="parameters" element="tns:checkonbatch" />
+  </wsdl:message>
+  <wsdl:message name="checkononeResponse">
+    <wsdl:part name="parameters" element="tns:checkononeResponse" />
+  </wsdl:message>
+  <wsdl:portType name="TerminalService">
+    <wsdl:operation name="grouptree">
+      <wsdl:input name="grouptree" message="tns:grouptree" />
+      <wsdl:output name="grouptreeResponse" message="tns:grouptreeResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="parentinfoall">
+      <wsdl:input name="parentinfoall" message="tns:parentinfoall" />
+      <wsdl:output name="parentinfoallResponse" message="tns:parentinfoallResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="updatefile">
+      <wsdl:input name="updatefile" message="tns:updatefile" />
+      <wsdl:output name="updatefileResponse" message="tns:updatefileResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="parentpic">
+      <wsdl:input name="parentpic" message="tns:parentpic" />
+      <wsdl:output name="parentpicResponse" message="tns:parentpicResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="checkonone">
+      <wsdl:input name="checkonone" message="tns:checkonone" />
+      <wsdl:output name="checkononeResponse" message="tns:checkononeResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="iccardinfoall">
+      <wsdl:input name="iccardinfoall" message="tns:iccardinfoall" />
+      <wsdl:output name="iccardinfoallResponse" message="tns:iccardinfoallResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="newnoticeinfo">
+      <wsdl:input name="newnoticeinfo" message="tns:newnoticeinfo" />
+      <wsdl:output name="newnoticeinfoResponse" message="tns:newnoticeinfoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="parentinfoadd">
+      <wsdl:input name="parentinfoadd" message="tns:parentinfoadd" />
+      <wsdl:output name="parentinfoaddResponse" message="tns:parentinfoaddResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="checkonbatch">
+      <wsdl:input name="checkonbatch" message="tns:checkonbatch" />
+      <wsdl:output name="checkonbatchResponse" message="tns:checkonbatchResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="iccardinfoadd">
+      <wsdl:input name="iccardinfoadd" message="tns:iccardinfoadd" />
+      <wsdl:output name="iccardinfoaddResponse" message="tns:iccardinfoaddResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="studentpic">
+      <wsdl:input name="studentpic" message="tns:studentpic" />
+      <wsdl:output name="studentpicResponse" message="tns:studentpicResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="checkonpic">
+      <wsdl:input name="checkonpic" message="tns:checkonpic" />
+      <wsdl:output name="checkonpicResponse" message="tns:checkonpicResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="studentsinfoall">
+      <wsdl:input name="studentsinfoall" message="tns:studentsinfoall" />
+      <wsdl:output name="studentsinfoallResponse" message="tns:studentsinfoallResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="studentsinfoadd">
+      <wsdl:input name="studentsinfoadd" message="tns:studentsinfoadd" />
+      <wsdl:output name="studentsinfoaddResponse" message="tns:studentsinfoaddResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="TerminalServiceImplServiceSoapBinding" type="tns:TerminalService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="grouptree">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="grouptree">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="grouptreeResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="parentinfoall">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="parentinfoall">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="parentinfoallResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updatefile">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="updatefile">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="updatefileResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="parentpic">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="parentpic">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="parentpicResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="checkonone">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="checkonone">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="checkononeResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="iccardinfoall">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="iccardinfoall">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="iccardinfoallResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="newnoticeinfo">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="newnoticeinfo">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="newnoticeinfoResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="checkonbatch">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="checkonbatch">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="checkonbatchResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="parentinfoadd">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="parentinfoadd">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="parentinfoaddResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="iccardinfoadd">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="iccardinfoadd">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="iccardinfoaddResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="checkonpic">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="checkonpic">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="checkonpicResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="studentpic">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="studentpic">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="studentpicResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="studentsinfoall">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="studentsinfoall">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="studentsinfoallResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="studentsinfoadd">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="studentsinfoadd">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="studentsinfoaddResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="TerminalServiceImplService">
+    <wsdl:port name="TerminalServiceImplPort" binding="tns:TerminalServiceImplServiceSoapBinding">
+      <soap:address location="http://119.252.247.222:8080/ismsapp/webservice/terminalservice" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,5 @@
+﻿<NavigationWindow x:Class="SwipCardSystem.View.AdminWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="AdminWindow" WindowStartupLocation="CenterScreen" Navigating="NavigationWindow_Navigating" ShowsNavigationUI="False" Source="AdminMainPage.xaml" WindowState="Maximized" ResizeMode="NoResize" ShowInTaskbar="False" WindowStyle="None">
+</NavigationWindow>

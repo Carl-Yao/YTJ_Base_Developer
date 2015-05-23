@@ -1,0 +1,180 @@
+﻿LogMessageTime:2014/12/21 12:21:57
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2014/12/21 12:22:00
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/12/21 12:23:22
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2014/12/21 12:23:29
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/12/21 12:27:48
+LogMessageType:Error
+LogMessageContent:初始化IC卡读写器失败，请检查连接是否正确。返回码：
+LogMessageTime:2014/12/21 12:27:48
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2014/12/21 12:27:50
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/12/21 12:28:06
+LogMessageType:Error
+LogMessageContent:获取公告发生异常！DownloadGroupInfo:未将对象引用设置到对象的实例。
+LogMessageTime:2014/12/21 12:28:08
+LogMessageType:Error
+LogMessageContent:获取家长数据发生异常！DownloadParentInfo:Data too long for column 'USER_ID' at row 1
+LogMessageTime:2014/12/21 12:29:19
+LogMessageType:Error
+LogMessageContent:远程服务器返回错误: (404) 未找到。
+LogMessageTime:2014/12/21 12:30:11
+LogMessageType:Error
+LogMessageContent:获取公告发生异常！DownloadGroupInfo:未将对象引用设置到对象的实例。
+LogMessageTime:2014/12/21 12:30:12
+LogMessageType:Error
+LogMessageContent:获取家长数据发生异常！DownloadParentInfo:Data too long for column 'USER_ID' at row 1
+LogMessageTime:2014/12/21 12:31:27
+LogMessageType:Error
+LogMessageContent:远程服务器返回错误: (404) 未找到。
+LogMessageTime:2014/12/21 12:33:02
+LogMessageType:Error
+LogMessageContent:System.CodeDom.Compiler.CompilerErrorCollection
+LogMessageTime:2014/12/21 12:33:15
+LogMessageType:Error
+LogMessageContent:获取公告发生异常！DownloadGroupInfo:未将对象引用设置到对象的实例。
+LogMessageTime:2014/12/21 12:33:16
+LogMessageType:Error
+LogMessageContent:获取家长数据发生异常！DownloadParentInfo:Data too long for column 'USER_ID' at row 1
+LogMessageTime:2014/12/21 12:33:49
+LogMessageType:Error
+LogMessageContent:初始化IC卡读写器失败，请检查连接是否正确。返回码：
+LogMessageTime:2014/12/21 12:33:50
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2014/12/21 12:33:54
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/12/21 12:38:44
+LogMessageType:Error
+LogMessageContent:获取公告发生异常！DownloadGroupInfo:未将对象引用设置到对象的实例。
+LogMessageTime:2014/12/21 12:38:44
+LogMessageType:Error
+LogMessageContent:获取家长数据发生异常！DownloadParentInfo:Data too long for column 'USER_ID' at row 1
+LogMessageTime:2014/12/21 12:38:45
+LogMessageType:Error
+LogMessageContent:获取IC卡数据发生异常！DownloadCardInfo:Data too long for column 'USER_ID' at row 1
+LogMessageTime:2014/12/21 12:40:09
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2014/12/21 12:42:09
+LogMessageType:Error
+LogMessageContent:初始化IC卡读写器失败，请检查连接是否正确。返回码：
+LogMessageTime:2014/12/21 12:42:13
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/12/21 14:36:27
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2014/12/21 14:51:36
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2014/12/21 14:52:22
+LogMessageType:Error
+LogMessageContent:未将对象引用设置到对象的实例。
+LogMessageTime:2014/12/21 14:52:22
+LogMessageType:Error
+LogMessageContent:初始化IC卡读写器失败，请检查连接是否正确。返回码：
+LogMessageTime:2014/12/21 14:52:26
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/12/21 14:54:42
+LogMessageType:Error
+LogMessageContent:未将对象引用设置到对象的实例。
+LogMessageTime:2014/12/21 14:54:42
+LogMessageType:Error
+LogMessageContent:Get config info error
+LogMessageTime:2014/12/21 14:54:52
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2014/12/21 14:54:57
+LogMessageType:Error
+LogMessageContent:初始化IC卡读写器失败，请检查连接是否正确。返回码：
+LogMessageTime:2014/12/21 14:55:01
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/12/21 14:55:27
+LogMessageType:Error
+LogMessageContent:初始化IC卡读写器失败，请检查连接是否正确。返回码：
+LogMessageTime:2014/12/21 14:55:27
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2014/12/21 15:29:15
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2014/12/21 15:29:16
+LogMessageType:Error
+LogMessageContent:获取家长数据发生异常！DownloadParentInfo:Data too long for column 'USER_ID' at row 1
+LogMessageTime:2014/12/21 15:29:41
+LogMessageType:Error
+LogMessageContent:获取IC卡数据发生异常！DownloadCardInfo:Data too long for column 'USER_ID' at row 1
+LogMessageTime:2014/12/21 15:29:42
+LogMessageType:Error
+LogMessageContent:初始化IC卡读写器失败，请检查连接是否正确。返回码：
+LogMessageTime:2014/12/21 15:29:46
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/12/21 15:32:00
+LogMessageType:Error
+LogMessageContent:获取公告发生异常！DownloadGroupInfo:未将对象引用设置到对象的实例。
+LogMessageTime:2014/12/21 15:32:02
+LogMessageType:Error
+LogMessageContent:获取家长数据发生异常！DownloadParentInfo:Data too long for column 'USER_ID' at row 1
+LogMessageTime:2014/12/21 15:33:01
+LogMessageType:Error
+LogMessageContent:获取IC卡数据发生异常！DownloadCardInfo:Data too long for column 'USER_ID' at row 1
+LogMessageTime:2014/12/21 15:33:56
+LogMessageType:Error
+LogMessageContent:获取公告发生异常！DownloadGroupInfo:未将对象引用设置到对象的实例。
+LogMessageTime:2014/12/21 15:33:58
+LogMessageType:Error
+LogMessageContent:获取家长数据发生异常！DownloadParentInfo:Data too long for column 'USER_ID' at row 1
+LogMessageTime:2014/12/21 15:36:33
+LogMessageType:Error
+LogMessageContent:获取IC卡数据发生异常！DownloadCardInfo:Data too long for column 'USER_ID' at row 1
+LogMessageTime:2014/12/21 15:37:17
+LogMessageType:Error
+LogMessageContent:获取公告发生异常！DownloadGroupInfo:未将对象引用设置到对象的实例。
+LogMessageTime:2014/12/21 15:37:19
+LogMessageType:Error
+LogMessageContent:获取家长数据发生异常！DownloadParentInfo:Data too long for column 'USER_ID' at row 1
+LogMessageTime:2014/12/21 15:45:17
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2014/12/21 15:46:08
+LogMessageType:Error
+LogMessageContent:初始化IC卡读写器失败，请检查连接是否正确。返回码：
+LogMessageTime:2014/12/21 15:46:12
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/12/21 15:46:23
+LogMessageType:Error
+LogMessageContent:获取公告发生异常！DownloadGroupInfo:未将对象引用设置到对象的实例。
+LogMessageTime:2014/12/21 15:56:45
+LogMessageType:Error
+LogMessageContent:初始化IC卡读写器失败，请检查连接是否正确。返回码：
+LogMessageTime:2014/12/21 15:56:45
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2014/12/21 15:56:48
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/12/21 16:02:48
+LogMessageType:Error
+LogMessageContent:初始化IC卡读写器失败，请检查连接是否正确。返回码：
+LogMessageTime:2014/12/21 16:02:48
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2014/12/21 16:05:23
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！

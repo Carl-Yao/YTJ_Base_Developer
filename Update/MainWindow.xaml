@@ -1,0 +1,13 @@
+﻿<Window x:Class="Update.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:Update"
+        Title="MainWindow" WindowState="Maximized" WindowStyle="None" Width="1920" Height="1080" Loaded="Window_Loaded">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Images\LoginBackground.jpg"/>
+        </Grid.Background>
+        <local:ProgressUserControl x:Name="progress"></local:ProgressUserControl>
+        <TextBlock  HorizontalAlignment="Center" Name="textBlock1" Text="程序正在自动更新..." FontSize="48" VerticalAlignment="Top" Margin="0,300,0,0"/>
+    </Grid>
+</Window>

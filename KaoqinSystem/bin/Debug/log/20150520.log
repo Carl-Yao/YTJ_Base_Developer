@@ -1,0 +1,117 @@
+﻿LogMessageTime:2015-05-20 0:42:01
+LogMessageType:Error
+LogMessageContent:ggg_webserviceManager0:42
+LogMessageTime:2015-05-20 0:42:01
+LogMessageType:Warning
+LogMessageContent:未连网，请先联网！
+LogMessageTime:2015-05-20 0:42:02
+LogMessageType:Error
+LogMessageContent:ggg_InitDevices0:42
+LogMessageTime:2015-05-20 0:42:03
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2015-05-20 0:42:03
+LogMessageType:Error
+LogMessageContent:ggg_InitDevices0:42
+LogMessageTime:2015-05-20 0:43:08
+LogMessageType:Error
+LogMessageContent:ggg_webserviceManager0:43
+LogMessageTime:2015-05-20 0:43:08
+LogMessageType:Warning
+LogMessageContent:未连网，请先联网！
+LogMessageTime:2015-05-20 0:43:08
+LogMessageType:Error
+LogMessageContent:ggg_InitDevices0:43
+LogMessageTime:2015-05-20 0:43:09
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2015-05-20 0:43:09
+LogMessageType:Error
+LogMessageContent:ggg_InitDevices0:43
+LogMessageTime:2015-05-20 0:43:46
+LogMessageType:Error
+LogMessageContent:ggg_webserviceManager0:43
+LogMessageTime:2015-05-20 0:44:00
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2015-05-20 0:44:00
+LogMessageType:Error
+LogMessageContent:ggg_InitDevices0:44
+LogMessageTime:2015-05-20 0:44:01
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2015-05-20 0:44:01
+LogMessageType:Error
+LogMessageContent:ggg_InitDevices0:44
+LogMessageTime:2015-05-20 0:44:18
+LogMessageType:Error
+LogMessageContent:获取资讯发生异常！DownloadGroupInfo:在 WebClient 请求期间发生异常。
+LogMessageTime:2015-05-20 0:45:12
+LogMessageType:Error
+LogMessageContent:ggg_webserviceManager0:45
+LogMessageTime:2015-05-20 0:45:15
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2015-05-20 0:45:15
+LogMessageType:Error
+LogMessageContent:ggg_InitDevices0:45
+LogMessageTime:2015-05-20 0:45:16
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2015-05-20 0:45:16
+LogMessageType:Error
+LogMessageContent:ggg_InitDevices0:45
+LogMessageTime:2015-05-20 0:45:24
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2015-05-20 0:58:26
+LogMessageType:Error
+LogMessageContent:ggg_webserviceManager0:58
+LogMessageTime:2015-05-20 0:58:26
+LogMessageType:Warning
+LogMessageContent:未连网，请先联网！
+LogMessageTime:2015-05-20 0:59:14
+LogMessageType:Error
+LogMessageContent:获取公告发生异常！DownloadGroupInfo:调用的目标发生了异常。
+LogMessageTime:2015-05-20 0:59:14
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2015-05-20 0:59:21
+LogMessageType:Error
+LogMessageContent:获取资讯发生异常！DownloadGroupInfo:调用的目标发生了异常。
+LogMessageTime:2015-05-20 0:59:24
+LogMessageType:Error
+LogMessageContent:获取资讯发生异常！DownloadGroupInfo:调用的目标发生了异常。
+LogMessageTime:2015-05-20 1:01:33
+LogMessageType:Error
+LogMessageContent:获取学生数据发生异常！DownloadStudentInfo:调用的目标发生了异常。
+LogMessageTime:2015-05-20 1:01:34
+LogMessageType:Error
+LogMessageContent:获取教师数据发生异常！DownloadTeacherInfo:调用的目标发生了异常。
+LogMessageTime:2015-05-20 1:01:55
+LogMessageType:Error
+LogMessageContent:UploadDataOne调用的目标发生了异常。
+LogMessageTime:2015-05-20 1:01:56
+LogMessageType:Error
+LogMessageContent:获取家长数据发生异常！DownloadParentInfo:调用的目标发生了异常。
+LogMessageTime:2015-05-20 1:01:57
+LogMessageType:Error
+LogMessageContent:获取IC卡数据发生异常！DownloadCardInfo:调用的目标发生了异常。
+LogMessageTime:2015-05-20 1:01:58
+LogMessageType:Error
+LogMessageContent:获取IC卡数据发生异常！DownloadCardInfo:调用的目标发生了异常。
+LogMessageTime:2015-05-20 1:01:58
+LogMessageType:Error
+LogMessageContent:ggg_InitDevices1:01
+LogMessageTime:2015-05-20 1:01:59
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2015-05-20 1:01:59
+LogMessageType:Error
+LogMessageContent:ggg_InitDevices1:01
+LogMessageTime:2015-05-20 1:05:33
+LogMessageType:Error
+LogMessageContent:ggg_webserviceManager1:05
+LogMessageTime:2015-05-20 1:05:33
+LogMessageType:Warning
+LogMessageContent:未连网，请先联网！

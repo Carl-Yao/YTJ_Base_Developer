@@ -1,0 +1,86 @@
+﻿<Window x:Class="SwipCardSystem.View.GuangBoSystem"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		 xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk"
+        Title="GuangBoSetting"
+        WindowState="Maximized"
+        xmlns:local="clr-namespace:SwipCardSystem.View.Converter"
+        xmlns:usercontrol="clr-namespace:SwipCardSystem.View.UserController"
+		ResizeMode="NoResize" ShowInTaskbar="False"
+		WindowStyle="None" 
+		Width="1440" Height="900"
+        HorizontalAlignment="Stretch" VerticalAlignment="Stretch" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <local:BooleanToVisibily x:Key="BooleanToVisibily"/>
+        <Style TargetType="{x:Type TextBlock}" x:Key="ListViewItemBlockStyle">
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="Visibility" Value="{Binding Path=IsSelected, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type ListViewItem}}, Converter={StaticResource BooleanToVisibily}, ConverterParameter=True}" />
+        </Style>
+
+        <Style TargetType="{x:Type FrameworkElement}" x:Key="ListViewItemEditStyle">
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="Visibility" Value="{Binding Path=IsSelected, 
+                            RelativeSource={RelativeSource FindAncestor,
+                            AncestorType={x:Type ListViewItem}},
+                            Converter={StaticResource BooleanToVisibily},
+                            ConverterParameter=False}" />
+        </Style>
+    </Window.Resources>
+    <Window.Background>
+        <ImageBrush ImageSource="/SwipCardSystem;component/Images/VideoPlayerBackground.jpg" Stretch="Fill" />
+    </Window.Background>
+    <Grid>
+        <Button Style="{StaticResource buttonTemplate}"  Content="返回" HorizontalAlignment="Right" Name="button2" Click="button2_Click" Margin="0,0,0,970" />
+        <TextBlock Text="分布式广播" VerticalAlignment="Top" Margin="10,20,100,10" FontSize="40" Foreground="White" FontStyle="Normal" FontWeight="ExtraBold"/>
+        <Grid Margin="300,100,20,120">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <GroupBox Header="手动选择音响喊话：" Margin="10" FontSize="30">
+                <StackPanel Orientation="Vertical">
+                    <Label Content="第一步：请确保麦克风连接到考勤机或者无线广播发射机上" FontSize="27"/>
+                    <StackPanel Orientation="Horizontal">
+                        <Label Content="第二步：请选择播放音响：" FontSize="27"/>
+                        <ComboBox x:Name="SelectSound" Width="238" Margin="10" SelectionChanged="SelectSound_SelectionChanged">
+
+                        </ComboBox>
+                    </StackPanel>
+                </StackPanel>
+            </GroupBox>
+            <GroupBox Header="分布式广播设置：" Grid.Row="1" Margin="10" FontSize="30">
+                <StackPanel Orientation="Vertical">
+                    <StackPanel Orientation="Horizontal" Margin="0,20">
+                        <TextBlock Text="请在列表中选择一项并设置频率：" FontSize="24" VerticalAlignment="Center"/>
+                        <ComboBox x:Name="Sound" Width="100" Height="50"/>
+                        <Button Content="修改频率" Background="Transparent" FontSize="20"  Margin="20,0,0,0"  Width="120" Click="ChangePlanDataClick"/>
+                    </StackPanel>
+                    <TextBlock Text="音响频率列表：" FontSize="20"/>
+                    <ListView x:Name="FrequencyList" Grid.Row="1" ItemsSource="{Binding}" VerticalAlignment="Stretch" Width="600" HorizontalAlignment="Left" Background="#FFDADADA" FontSize="22">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn Header="音响名字" Width="250" DisplayMemberBinding="{Binding Path=SoundName}" />
+                                <GridViewColumn Header="音响频率" Width="270" DisplayMemberBinding="{Binding Path=Frequency}" />
+                                <!--<GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Grid>
+                                        -->
+                                <!--<TextBlock Width="270" Text="{Binding Path=Frequency}"
+                                    Style="{StaticResource ListViewItemBlockStyle}" />
+                                        <TextBox Width="270" Text="{Binding Path=Frequency, UpdateSourceTrigger=PropertyChanged}" 
+                                    Style="{StaticResource ListViewItemEditStyle}" />-->
+                                <!--<usercontrol:UserControlSound select></usercontrol:UserControlSound>-->
+                                <!--
+                                        </Grid>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>-->
+
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                </StackPanel>
+            </GroupBox>
+        </Grid>
+
+    </Grid>
+</Window>

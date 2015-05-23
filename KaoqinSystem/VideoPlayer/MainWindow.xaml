@@ -1,0 +1,78 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:MusicPlayer" 
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Name="MyMusicPlay" x:Class="MusicPlayer.MainWindow" 
+        Title="MyMusicPlay" Height="600" Width="800" Icon="./Themes/Icon/MyMusicPlay.ico"  ShowActivated="True" Loaded="MyMusicPlay_Loaded" WindowStartupLocation="CenterScreen" Closed="MyMusicPlay_Closed"  Background="Transparent"  SizeChanged="Window_SizeChanged">
+    <Grid>
+        <Grid HorizontalAlignment="Stretch">
+            <Grid.Background>
+                <ImageBrush ImageSource="./Themes/Image/backImg/Defaultimage.png" Stretch="UniformToFill"/>
+            </Grid.Background>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="60"/>
+            </Grid.RowDefinitions>
+            <Grid x:Name="gridMusicList" Grid.Row="0">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="200"  MinWidth="100"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <GridSplitter Grid.Column="0" Width="3" Background="Purple" VerticalAlignment="Stretch"/>
+                <Grid  Grid.Column="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition Height="30"/>
+                    </Grid.RowDefinitions>
+                    <ListView Margin="0,0,5,0" ScrollViewer.HorizontalScrollBarVisibility="Hidden" Grid.Row="0" x:Name="listMusicList" Padding="5,5,5,5" Background="Transparent" Foreground="YellowGreen" HorizontalAlignment="Stretch" MouseDoubleClick="listMusicList_MouseDoubleClick" SelectionMode="Single">
+                        <ListView.ContextMenu>
+                            <ContextMenu>
+                                <MenuItem Header="删除此歌曲吗?" x:Name="Delsong" Click="DelMusic_Click" />
+                                <MenuItem Header="清空歌曲?" x:Name="ClearSong" Click="ClearMusic_Click" />
+                            </ContextMenu>
+                        </ListView.ContextMenu>
+                    </ListView>
+                    <Canvas Grid.Row="1">
+                        <Button  x:Name="AddMusicFolders" FontFamily="幼圆"  Height="30" HorizontalAlignment="Left" Margin="0,0,0,0" Click="AddMusicFolders_Click" VerticalAlignment="Top" Width="60" Background="Transparent" Foreground="YellowGreen" Content="添加"/>
+                    </Canvas>
+                </Grid>
+                <ContentControl x:Name="contCtrlMP" Grid.Column="1" PreviewMouseDoubleClick="contCtrlMP_PreviewMouseDoubleClick"  HorizontalAlignment="Stretch" >
+                    <Grid>
+                        <MediaElement Width="auto" Height="auto" x:Name="MediaPlayer" MouseLeftButtonUp="mediaElement_MouseLeftButtonUp" Volume="{Binding Value, ElementName=sliderVolume}" LoadedBehavior="Manual"/>
+                        <!--<local:FlipTile3D Margin="100"/>-->
+                    </Grid>
+                </ContentControl>
+            </Grid>
+            <Grid Grid.Row="1" Background="Transparent">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="3"/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <DockPanel HorizontalAlignment="Stretch" Grid.Row="0">
+                        <ProgressBar x:Name="progressMusic" Height="3" Margin="0,0,0,0" FlowDirection="LeftToRight" Foreground="Purple" Background="White"/>
+                    </DockPanel>
+                    <Grid Grid.Row="1">
+                        <DockPanel>
+                            <Image x:Name="imgMusicAuthor" HorizontalAlignment="Stretch" Width="50" Height="50" Source="./Resource/Artist/DefaultAuthor.png"/>
+                            <Label x:Name="lblMusicCurrent" Height="30" Background="Transparent" Width="200" Foreground="YellowGreen"  VerticalAlignment="Stretch" Content="暂无播放歌曲"/>
+                            <Button  x:Name="btnLast" FontFamily="幼圆"  Height="30" HorizontalAlignment="Left" Margin="0,0,5,0" Click="btnLast_Click" VerticalAlignment="Stretch" Width="60" Background="Transparent" Foreground="YellowGreen" Content="上一首"/>
+                            <Button  x:Name="btnPlay" FontFamily="幼圆"  Height="30" HorizontalAlignment="Left" Margin="0,0,5,0" Click="btnPlay_Click" VerticalAlignment="Stretch" Width="60" Background="Transparent" Foreground="YellowGreen" Content="播放"/>
+                            <Button  x:Name="btnNext" FontFamily="幼圆"  Height="30" HorizontalAlignment="Left" Margin="0,0,5,0" Click="btnNext_Click" VerticalAlignment="Stretch" Width="60" Background="Transparent" Foreground="YellowGreen" Content="下一首"/>
+                            <Button  x:Name="btnStop" FontFamily="幼圆"  Height="30" HorizontalAlignment="Left" Margin="0,0,5,0" Click="btnStop_Click" VerticalAlignment="Stretch" Width="60" Background="Transparent" Foreground="YellowGreen" Content="停止"/>
+                            <Button  x:Name="btnQuickLast" FontFamily="幼圆"  Height="30" HorizontalAlignment="Left" Margin="0,0,5,0" Click="btnQuickLast_Click" VerticalAlignment="Stretch" Width="60" Background="Transparent" Foreground="YellowGreen" Content="快退"/>
+                            <Button  x:Name="btnQuickNext" FontFamily="幼圆"  Height="30" HorizontalAlignment="Left" Margin="0,0,5,0" Click="btnQuickNext_Click" VerticalAlignment="Stretch" Width="60" Background="Transparent" Foreground="YellowGreen" Content="快进"/>
+                            <Image x:Name="imgvolTip" Margin="5,0,0,0" HorizontalAlignment="Right" Source="./Themes/Icon/音频与视频播放器图标8.ico" VerticalAlignment="Stretch" />
+
+                            <Slider Margin="0,0,5,0" x:Name="sliderVolume" Height="5" Background="DarkCyan" Maximum="2" Minimum="0" Value="0.5" VerticalAlignment="Center" Width="100" Foreground="Black"/>
+                            <Label x:Name="lblVolValue" Height="30" HorizontalAlignment="Left" Content="{Binding Value, ElementName=sliderVolume}" Foreground="GreenYellow"/>
+
+                            <Label x:Name="lblProgressValue" Height="30" HorizontalAlignment="Right" Foreground="White"/>
+                        </DockPanel>
+                    </Grid>
+                </Grid>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

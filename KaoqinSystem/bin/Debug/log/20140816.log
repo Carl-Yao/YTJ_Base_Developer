@@ -1,0 +1,66 @@
+﻿LogMessageTime:2014/8/16 2:54:41
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/8/16 2:59:11
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/8/16 3:08:22
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/8/16 3:09:07
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/8/16 16:23:55
+LogMessageType:Error
+LogMessageContent:获取公告发生异常！DownloadGroupInfo:没有终结点在侦听可以接受消息的 http://119.252.247.222:8080/ismsapp/webservice/terminalservice。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。
+LogMessageTime:2014/8/16 16:23:58
+LogMessageType:Error
+LogMessageContent:获取学生数据发生异常！DownloadStudentInfo:没有终结点在侦听可以接受消息的 http://119.252.247.222:8080/ismsapp/webservice/terminalservice。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。
+LogMessageTime:2014/8/16 16:24:00
+LogMessageType:Error
+LogMessageContent:获取家长数据发生异常！DownloadParentInfo:没有终结点在侦听可以接受消息的 http://119.252.247.222:8080/ismsapp/webservice/terminalservice。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。
+LogMessageTime:2014/8/16 16:24:01
+LogMessageType:Error
+LogMessageContent:获取IC卡数据发生异常！DownloadCardInfo:没有终结点在侦听可以接受消息的 http://119.252.247.222:8080/ismsapp/webservice/terminalservice。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。
+LogMessageTime:2014/8/16 16:40:10
+LogMessageType:Error
+LogMessageContent:获取公告发生异常！DownloadGroupInfo:没有终结点在侦听可以接受消息的 http://119.252.247.222:8080/ismsapp/webservice/terminalservice。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。
+LogMessageTime:2014/8/16 16:40:11
+LogMessageType:Error
+LogMessageContent:获取学生数据发生异常！DownloadStudentInfo:没有终结点在侦听可以接受消息的 http://119.252.247.222:8080/ismsapp/webservice/terminalservice。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。
+LogMessageTime:2014/8/16 16:40:12
+LogMessageType:Error
+LogMessageContent:获取家长数据发生异常！DownloadParentInfo:没有终结点在侦听可以接受消息的 http://119.252.247.222:8080/ismsapp/webservice/terminalservice。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。
+LogMessageTime:2014/8/16 16:40:13
+LogMessageType:Error
+LogMessageContent:获取IC卡数据发生异常！DownloadCardInfo:没有终结点在侦听可以接受消息的 http://119.252.247.222:8080/ismsapp/webservice/terminalservice。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。
+LogMessageTime:2014/8/16 17:56:45
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/8/16 19:17:24
+LogMessageType:Error
+LogMessageContent:System.Byte[]
+LogMessageTime:2014/8/16 22:11:24
+LogMessageType:Warning
+LogMessageContent:根据考勤卡号获取其他信息时出错！GetOtherInfoByCardNo-->Could not find specified column in results
+LogMessageTime:2014/8/16 22:25:52
+LogMessageType:Error
+LogMessageContent:CreateDataTable-->You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(16), YXBZ VARCHAR(2))' at line 1
+LogMessageTime:2014/8/16 22:26:05
+LogMessageType:Error
+LogMessageContent:删除数据表失败！Table 'mysql.tb_card' doesn't exist
+LogMessageTime:2014/8/16 22:36:52
+LogMessageType:Error
+LogMessageContent:删除数据表失败！Unknown table 'tb_card'
+LogMessageTime:2014/8/16 22:38:55
+LogMessageType:Warning
+LogMessageContent:根据考勤卡号获取其他信息时出错！GetOtherInfoByCardNo-->索引超出了数组界限。
+LogMessageTime:2014/8/16 22:39:23
+LogMessageType:Warning
+LogMessageContent:根据考勤卡号获取其他信息时出错！GetOtherInfoByCardNo-->索引超出了数组界限。
+LogMessageTime:2014/8/16 22:43:29
+LogMessageType:Warning
+LogMessageContent:根据考勤卡号获取其他信息时出错！GetOtherInfoByCardNo-->索引超出了数组界限。
+LogMessageTime:2014/8/16 22:48:33
+LogMessageType:Warning
+LogMessageContent:根据考勤卡号获取其他信息时出错！GetOtherInfoByCardNo-->Could not find specified column in results

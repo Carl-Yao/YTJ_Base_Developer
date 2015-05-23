@@ -1,0 +1,694 @@
+﻿LogMessageTime:2014/9/12 1:31:06
+LogMessageType:Error
+LogMessageContent:删除数据表失败！Unable to connect to any of the specified MySQL hosts.
+LogMessageTime:2014/9/12 1:31:24
+LogMessageType:Error
+LogMessageContent:Unable to connect to any of the specified MySQL hosts.
+LogMessageTime:2014/9/12 1:31:25
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2014/9/12 1:31:27
+LogMessageType:Error
+LogMessageContent:Unable to connect to any of the specified MySQL hosts.
+LogMessageTime:2014/9/12 1:31:29
+LogMessageType:Error
+LogMessageContent:Unable to connect to any of the specified MySQL hosts.
+LogMessageTime:2014/9/12 1:31:31
+LogMessageType:Error
+LogMessageContent:Unable to connect to any of the specified MySQL hosts.
+LogMessageTime:2014/9/12 1:31:33
+LogMessageType:Error
+LogMessageContent:同步数据失败！
+LogMessageTime:2014/9/12 1:31:48
+LogMessageType:Error
+LogMessageContent:初始化IC卡读写器失败，请检查连接是否正确。返回码：-32
+LogMessageTime:2014/9/12 1:31:51
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/9/12 1:54:17
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2014/9/12 2:04:02
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/9/12 2:04:02
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/9/12 2:04:02
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/9/12 2:04:02
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/9/12 2:04:02
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/9/12 2:04:02
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/9/12 2:04:02
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/9/12 2:04:02
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/9/12 20:51:47
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/9/12 20:52:23
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/9/12 20:53:49
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/9/12 20:54:49
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2014/9/12 20:55:54
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/9/12 20:55:54
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/9/12 20:55:54
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/9/12 20:55:54
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/9/12 20:55:54
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/9/12 20:55:54
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/9/12 20:55:54
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/9/12 20:55:54
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/9/12 20:58:16
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/9/12 21:00:08
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/9/12 21:00:38
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/9/12 21:07:46
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/9/12 21:22:25
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/9/12 21:23:17
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/9/12 21:23:17
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/9/12 21:23:17
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/9/12 21:23:17
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/9/12 21:23:17
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/9/12 21:23:17
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/9/12 21:23:17
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/9/12 21:23:17
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/9/12 21:23:31
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/9/12 21:23:31
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/9/12 21:23:31
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/9/12 21:23:31
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/9/12 21:23:31
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/9/12 21:23:31
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/9/12 21:23:31
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/9/12 21:23:31
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/9/12 21:23:36
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/9/12 21:23:36
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/9/12 21:23:36
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/9/12 21:23:36
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/9/12 21:23:36
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/9/12 21:23:36
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/9/12 21:23:36
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/9/12 21:23:36
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/9/12 21:24:38
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/9/12 21:24:38
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/9/12 21:24:38
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/9/12 21:24:38
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/9/12 21:24:38
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/9/12 21:24:38
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/9/12 21:24:38
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/9/12 21:24:38
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/9/12 21:44:30
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/9/12 21:44:30
+LogMessageType:Error
+LogMessageContent:TimeEventForICDevice函数异常：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+LogMessageTime:2014/9/12 21:44:39
+LogMessageType:Error
+LogMessageContent:TimeEventForICDevice函数异常：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+LogMessageTime:2014/9/12 21:44:40
+LogMessageType:Error
+LogMessageContent:TimeEventForICDevice函数异常：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+LogMessageTime:2014/9/12 21:44:41
+LogMessageType:Error
+LogMessageContent:TimeEventForICDevice函数异常：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+LogMessageTime:2014/9/12 21:44:41
+LogMessageType:Error
+LogMessageContent:TimeEventForICDevice函数异常：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+LogMessageTime:2014/9/12 21:44:42
+LogMessageType:Error
+LogMessageContent:TimeEventForICDevice函数异常：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+LogMessageTime:2014/9/12 21:44:42
+LogMessageType:Error
+LogMessageContent:TimeEventForICDevice函数异常：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+LogMessageTime:2014/9/12 21:44:43
+LogMessageType:Error
+LogMessageContent:TimeEventForICDevice函数异常：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+LogMessageTime:2014/9/12 21:44:43
+LogMessageType:Error
+LogMessageContent:TimeEventForICDevice函数异常：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+LogMessageTime:2014/9/12 21:44:43
+LogMessageType:Error
+LogMessageContent:TimeEventForICDevice函数异常：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+LogMessageTime:2014/9/12 21:44:51
+LogMessageType:Error
+LogMessageContent:TimeEventForICDevice函数异常：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+LogMessageTime:2014/9/12 21:44:52
+LogMessageType:Error
+LogMessageContent:TimeEventForICDevice函数异常：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+LogMessageTime:2014/9/12 21:44:53
+LogMessageType:Error
+LogMessageContent:TimeEventForICDevice函数异常：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+LogMessageTime:2014/9/12 21:44:53
+LogMessageType:Error
+LogMessageContent:TimeEventForICDevice函数异常：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+LogMessageTime:2014/9/12 21:44:53
+LogMessageType:Error
+LogMessageContent:TimeEventForICDevice函数异常：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+LogMessageTime:2014/9/12 21:44:53
+LogMessageType:Error
+LogMessageContent:TimeEventForICDevice函数异常：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+LogMessageTime:2014/9/12 21:44:53
+LogMessageType:Error
+LogMessageContent:TimeEventForICDevice函数异常：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+LogMessageTime:2014/9/12 21:44:54
+LogMessageType:Error
+LogMessageContent:TimeEventForICDevice函数异常：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+LogMessageTime:2014/9/12 21:44:54
+LogMessageType:Error
+LogMessageContent:TimeEventForICDevice函数异常：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+LogMessageTime:2014/9/12 21:44:54
+LogMessageType:Error
+LogMessageContent:TimeEventForICDevice函数异常：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+LogMessageTime:2014/9/12 21:44:54
+LogMessageType:Error
+LogMessageContent:TimeEventForICDevice函数异常：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+LogMessageTime:2014/9/12 21:44:54
+LogMessageType:Error
+LogMessageContent:TimeEventForICDevice函数异常：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+LogMessageTime:2014/9/12 21:44:54
+LogMessageType:Error
+LogMessageContent:TimeEventForICDevice函数异常：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+LogMessageTime:2014/9/12 21:44:54
+LogMessageType:Error
+LogMessageContent:TimeEventForICDevice函数异常：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+LogMessageTime:2014/9/12 21:44:58
+LogMessageType:Error
+LogMessageContent:TimeEventForICDevice函数异常：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+LogMessageTime:2014/9/12 21:45:08
+LogMessageType:Error
+LogMessageContent:TimeEventForICDevice函数异常：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+LogMessageTime:2014/9/12 21:45:11
+LogMessageType:Error
+LogMessageContent:TimeEventForICDevice函数异常：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+LogMessageTime:2014/9/12 21:45:11
+LogMessageType:Error
+LogMessageContent:TimeEventForICDevice函数异常：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+LogMessageTime:2014/9/12 21:45:11
+LogMessageType:Error
+LogMessageContent:TimeEventForICDevice函数异常：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+LogMessageTime:2014/9/12 21:45:12
+LogMessageType:Error
+LogMessageContent:TimeEventForICDevice函数异常：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+LogMessageTime:2014/9/12 21:45:12
+LogMessageType:Error
+LogMessageContent:TimeEventForICDevice函数异常：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+LogMessageTime:2014/9/12 21:45:12
+LogMessageType:Error
+LogMessageContent:TimeEventForICDevice函数异常：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+LogMessageTime:2014/9/12 21:45:12
+LogMessageType:Error
+LogMessageContent:TimeEventForICDevice函数异常：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+LogMessageTime:2014/9/12 21:45:12
+LogMessageType:Error
+LogMessageContent:TimeEventForICDevice函数异常：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+LogMessageTime:2014/9/12 21:45:13
+LogMessageType:Error
+LogMessageContent:TimeEventForICDevice函数异常：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+LogMessageTime:2014/9/12 21:45:13
+LogMessageType:Error
+LogMessageContent:TimeEventForICDevice函数异常：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+LogMessageTime:2014/9/12 21:45:13
+LogMessageType:Error
+LogMessageContent:TimeEventForICDevice函数异常：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+LogMessageTime:2014/9/12 21:45:13
+LogMessageType:Error
+LogMessageContent:TimeEventForICDevice函数异常：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+LogMessageTime:2014/9/12 21:45:13
+LogMessageType:Error
+LogMessageContent:TimeEventForICDevice函数异常：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+LogMessageTime:2014/9/12 21:47:51
+LogMessageType:Error
+LogMessageContent:初始化IC卡读写器失败，请检查连接是否正确。返回码：
+LogMessageTime:2014/9/12 21:47:54
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/9/12 21:49:02
+LogMessageType:Error
+LogMessageContent:初始化IC卡读写器失败，请检查连接是否正确。返回码：
+LogMessageTime:2014/9/12 21:50:03
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/9/12 21:50:04
+LogMessageType:Error
+LogMessageContent:TimeEventForICDevice函数异常：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+LogMessageTime:2014/9/12 21:54:09
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/9/12 21:59:15
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/9/12 22:03:46
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/9/12 22:05:52
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/9/12 22:10:29
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/9/12 22:13:37
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/9/12 22:15:24
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/9/12 22:15:56
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/9/12 22:21:24
+LogMessageType:Error
+LogMessageContent:初始化IC卡读写器失败，请检查连接是否正确。返回码：
+LogMessageTime:2014/9/12 22:23:57
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/9/12 22:24:56
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/9/12 22:34:21
+LogMessageType:Error
+LogMessageContent:初始化设备失败：外部组件发生异常。
+LogMessageTime:2014/9/12 22:47:45
+LogMessageType:Error
+LogMessageContent:升级程序发生异常！UpdateApplication:调用的目标发生了异常。
+LogMessageTime:2014/9/12 22:47:59
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2014/9/12 22:48:50
+LogMessageType:Error
+LogMessageContent:升级程序发生异常！UpdateApplication:调用的目标发生了异常。
+LogMessageTime:2014/9/12 22:48:58
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2014/9/12 22:58:56
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/9/12 23:06:28
+LogMessageType:Error
+LogMessageContent:初始化设备失败：外部组件发生异常。
+LogMessageTime:2014/9/12 23:07:02
+LogMessageType:Error
+LogMessageContent:初始化设备失败：外部组件发生异常。
+LogMessageTime:2014/9/12 23:08:05
+LogMessageType:Error
+LogMessageContent:初始化设备失败：外部组件发生异常。
+LogMessageTime:2014/9/12 23:09:50
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/9/12 23:10:05
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/9/12 23:10:05
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/9/12 23:10:05
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/9/12 23:10:05
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/9/12 23:10:05
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/9/12 23:10:05
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/9/12 23:10:05
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/9/12 23:10:05
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/9/12 23:10:16
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/9/12 23:10:16
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/9/12 23:10:16
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/9/12 23:10:16
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/9/12 23:10:16
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/9/12 23:10:16
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/9/12 23:10:16
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/9/12 23:10:16
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/9/12 23:12:14
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/9/12 23:12:25
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/9/12 23:12:25
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/9/12 23:12:25
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/9/12 23:12:25
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/9/12 23:12:25
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/9/12 23:12:25
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/9/12 23:12:25
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/9/12 23:12:25
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/9/12 23:12:26
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/9/12 23:12:26
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/9/12 23:12:26
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/9/12 23:12:26
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/9/12 23:12:26
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/9/12 23:12:26
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/9/12 23:12:26
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/9/12 23:12:26
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/9/12 23:12:30
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/9/12 23:12:30
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/9/12 23:12:30
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/9/12 23:12:30
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/9/12 23:12:30
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/9/12 23:12:30
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/9/12 23:12:30
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/9/12 23:12:30
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/9/12 23:12:32
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/9/12 23:12:32
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/9/12 23:12:32
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/9/12 23:12:32
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/9/12 23:12:32
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/9/12 23:12:32
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/9/12 23:12:32
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/9/12 23:12:32
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/9/12 23:14:41
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/9/12 23:21:05
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/9/12 23:21:20
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/9/12 23:21:20
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/9/12 23:21:20
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/9/12 23:21:20
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/9/12 23:21:20
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/9/12 23:21:20
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/9/12 23:21:20
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/9/12 23:21:20
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2014/9/12 23:22:46
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/9/12 23:23:43
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/9/12 23:24:23
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/9/12 23:30:26
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/9/12 23:31:50
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/9/12 23:33:54
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/9/12 23:34:46
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/9/12 23:35:22
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/9/12 23:36:28
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/9/12 23:37:47
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/9/12 23:38:41
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/9/12 23:40:50
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/9/12 23:41:20
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/9/12 23:42:37
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/9/12 23:43:46
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/9/12 23:45:49
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/9/12 23:46:42
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/9/12 23:53:41
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/9/12 23:55:14
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2014/9/12 23:55:14
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2014/9/12 23:55:14
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2014/9/12 23:55:14
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2014/9/12 23:55:14
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2014/9/12 23:55:14
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2014/9/12 23:55:14
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2014/9/12 23:55:14
+LogMessageType:Unknown
+LogMessageContent:After

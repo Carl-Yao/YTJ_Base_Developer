@@ -1,0 +1,27 @@
+﻿LogMessageTime:2014/11/17 0:56:30
+LogMessageType:Error
+LogMessageContent:初始化IC卡读写器失败，请检查连接是否正确。返回码：
+LogMessageTime:2014/11/17 0:56:32
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/11/17 0:57:45
+LogMessageType:Error
+LogMessageContent:初始化IC卡读写器失败，请检查连接是否正确。返回码：
+LogMessageTime:2014/11/17 0:57:50
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/11/17 0:58:39
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2014/11/17 0:59:46
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2014/11/17 20:11:24
+LogMessageType:Error
+LogMessageContent:初始化IC卡读写器失败，请检查连接是否正确。返回码：
+LogMessageTime:2014/11/17 20:11:26
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2014/11/17 20:12:56
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！

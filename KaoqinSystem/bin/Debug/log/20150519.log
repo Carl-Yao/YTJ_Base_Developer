@@ -1,0 +1,126 @@
+﻿LogMessageTime:2015-05-19 21:25:25
+LogMessageType:Error
+LogMessageContent:ggg_webserviceManager21:25
+LogMessageTime:2015-05-19 21:25:31
+LogMessageType:Warning
+LogMessageContent:未连网，请先联网！
+LogMessageTime:2015-05-19 21:25:32
+LogMessageType:Error
+LogMessageContent:ggg_InitDevices21:25
+LogMessageTime:2015-05-19 21:25:32
+LogMessageType:Error
+LogMessageContent:初始化IC卡读写器失败，请检查连接是否正确。返回码：
+LogMessageTime:2015-05-19 21:25:36
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2015-05-19 21:25:36
+LogMessageType:Error
+LogMessageContent:ggg_InitDevices21:25
+LogMessageTime:2015-05-19 21:26:02
+LogMessageType:Error
+LogMessageContent:ggg_webserviceManager21:26
+LogMessageTime:2015-05-19 21:26:02
+LogMessageType:Warning
+LogMessageContent:未连网，请先联网！
+LogMessageTime:2015-05-19 21:26:02
+LogMessageType:Error
+LogMessageContent:ggg_InitDevices21:26
+LogMessageTime:2015-05-19 21:26:02
+LogMessageType:Error
+LogMessageContent:初始化IC卡读写器失败，请检查连接是否正确。返回码：
+LogMessageTime:2015-05-19 21:26:19
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2015-05-19 21:26:19
+LogMessageType:Error
+LogMessageContent:ggg_InitDevices21:26
+LogMessageTime:2015-05-19 21:26:30
+LogMessageType:Error
+LogMessageContent:ggg_webserviceManager21:26
+LogMessageTime:2015-05-19 21:26:30
+LogMessageType:Warning
+LogMessageContent:未连网，请先联网！
+LogMessageTime:2015-05-19 21:26:30
+LogMessageType:Error
+LogMessageContent:ggg_InitDevices21:26
+LogMessageTime:2015-05-19 21:26:31
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2015-05-19 21:26:31
+LogMessageType:Error
+LogMessageContent:ggg_InitDevices21:26
+LogMessageTime:2015-05-19 21:26:57
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2015-05-19 22:40:55
+LogMessageType:Error
+LogMessageContent:ggg_webserviceManager22:40
+LogMessageTime:2015-05-19 22:40:55
+LogMessageType:Warning
+LogMessageContent:未连网，请先联网！
+LogMessageTime:2015-05-19 22:40:55
+LogMessageType:Error
+LogMessageContent:ggg_InitDevices22:40
+LogMessageTime:2015-05-19 22:40:56
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2015-05-19 22:40:56
+LogMessageType:Error
+LogMessageContent:ggg_InitDevices22:40
+LogMessageTime:2015-05-19 22:41:39
+LogMessageType:Error
+LogMessageContent:ggg_webserviceManager22:41
+LogMessageTime:2015-05-19 22:41:45
+LogMessageType:Error
+LogMessageContent:ggg_InitDevices22:41
+LogMessageTime:2015-05-19 22:41:47
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2015-05-19 22:41:47
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2015-05-19 22:41:47
+LogMessageType:Error
+LogMessageContent:ggg_InitDevices22:41
+LogMessageTime:2015-05-19 22:42:05
+LogMessageType:Error
+LogMessageContent:获取资讯发生异常！DownloadGroupInfo:在 WebClient 请求期间发生异常。
+LogMessageTime:2015-05-19 22:43:02
+LogMessageType:Error
+LogMessageContent:获取资讯发生异常！DownloadGroupInfo:在 WebClient 请求期间发生异常。
+LogMessageTime:2015-05-19 22:45:43
+LogMessageType:Error
+LogMessageContent:Base64StringToImage 转换失败/nException：参数无效。
+LogMessageTime:2015-05-19 22:45:43
+LogMessageType:Error
+LogMessageContent:Base64StringToImage 转换失败/nException：参数无效。
+LogMessageTime:2015-05-19 22:45:43
+LogMessageType:Error
+LogMessageContent:Base64StringToImage 转换失败/nException：参数无效。
+LogMessageTime:2015-05-19 22:45:43
+LogMessageType:Error
+LogMessageContent:Base64StringToImage 转换失败/nException：参数无效。
+LogMessageTime:2015-05-19 22:45:43
+LogMessageType:Error
+LogMessageContent:Base64StringToImage 转换失败/nException：参数无效。
+LogMessageTime:2015-05-19 22:45:43
+LogMessageType:Error
+LogMessageContent:Base64StringToImage 转换失败/nException：参数无效。
+LogMessageTime:2015-05-19 22:45:47
+LogMessageType:Error
+LogMessageContent:Base64StringToImage 转换失败/nException：参数无效。
+LogMessageTime:2015-05-19 22:45:47
+LogMessageType:Error
+LogMessageContent:Base64StringToImage 转换失败/nException：参数无效。
+LogMessageTime:2015-05-19 22:45:47
+LogMessageType:Error
+LogMessageContent:Base64StringToImage 转换失败/nException：参数无效。
+LogMessageTime:2015-05-19 22:45:47
+LogMessageType:Error
+LogMessageContent:Base64StringToImage 转换失败/nException：参数无效。
+LogMessageTime:2015-05-19 22:45:48
+LogMessageType:Error
+LogMessageContent:Base64StringToImage 转换失败/nException：参数无效。
+LogMessageTime:2015-05-19 22:45:48
+LogMessageType:Error
+LogMessageContent:Base64StringToImage 转换失败/nException：参数无效。

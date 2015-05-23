@@ -1,0 +1,6 @@
+﻿LogMessageTime:2014/10/2 18:21:26
+LogMessageType:Error
+LogMessageContent:初始化IC卡读写器失败，请检查连接是否正确。返回码：
+LogMessageTime:2014/10/2 18:22:33
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！

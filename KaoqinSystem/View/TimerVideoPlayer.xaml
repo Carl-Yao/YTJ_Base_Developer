@@ -1,0 +1,1288 @@
+﻿<Window x:Class="SwipCardSystem.View.TimerVideoPlayer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		 xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk"
+        Title="GuangBoSetting"
+        WindowState="Maximized"
+        x:Name="MyMusicPlay"
+		ResizeMode="NoResize" ShowInTaskbar="False"
+		WindowStyle="None" Closing="Window_Closing" 
+		Width="1330" Height="900"
+        HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+        Loaded="MyMusicPlay_Loaded" WindowStartupLocation="CenterScreen" Closed="MyMusicPlay_Closed" >
+    <Window.Background>
+        <ImageBrush ImageSource="/SwipCardSystem;component/Images/VideoPlayerBackground.jpg" Stretch="Fill" />
+    </Window.Background>
+    <Window.Resources>
+        <Style x:Key="VideoStyle" TargetType="Button" >
+            <Setter Property="FontSize" Value="24"/>
+        </Style>
+        <Style TargetType="TextBlock">
+            <Setter Property="FontSize" Value="22"/>
+            <Setter Property="Foreground" Value="Black"/>
+        </Style>
+        <Style TargetType="ComboBox">
+            <Setter Property="Width" Value="100"/>
+            <Setter Property="Margin" Value="10"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="SelectedIndex" Value="0"/>
+        </Style>
+        <Style TargetType="Label">
+            <Setter Property="Foreground" Value="Black"/>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Button Style="{StaticResource buttonTemplate}"  Content="返回" Grid.Column="1" HorizontalAlignment="Right" Name="button2" VerticalAlignment="Top" Click="button2_Click" />
+        <Grid HorizontalAlignment="Stretch">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="78"/>
+                <RowDefinition/>
+                <RowDefinition Height="81"/>
+            </Grid.RowDefinitions>
+            <TextBlock Text="定时音乐播放器" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="525,13.6" FontSize="40" Foreground="White" FontStyle="Normal" FontWeight="ExtraBold" Height="50.8" Width="280"/>
+            <Grid x:Name="gridMusicList" Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="242"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <GridSplitter Grid.Column="0" Width="3" Background="#CCCCCC" VerticalAlignment="Stretch"/>
+                <Grid  Grid.Column="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="50"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Text="音乐文件列表:" Margin="5" FontSize="22" Foreground="White" Background="#FF3D8DEC" Height="40" Padding="6" VerticalAlignment="Center"/>
+                    <ListView Grid.Row="1" Margin="5,0,5,5" ScrollViewer.HorizontalScrollBarVisibility="Hidden" x:Name="listMusicList" FontSize="20" 
+                              Padding="5,5,5,5" Background="Transparent" Foreground="#444444"
+                              HorizontalAlignment="Stretch" MouseDoubleClick="listMusicList_MouseDoubleClick" 
+                              SelectionMode="Multiple">
+                        <ListView.ContextMenu>
+                            <ContextMenu>
+                                <MenuItem Header="删除此歌曲吗?" x:Name="Delsong" Click="DelMusic_Click" />
+                                <MenuItem Header="清空歌曲?" x:Name="ClearSong" Click="ClearMusic_Click" />
+                            </ContextMenu>
+                        </ListView.ContextMenu>
+                    </ListView>
+                    <Grid Grid.Row="2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Button Margin="5,0,0,5" x:Name="AddMusicFolders" FontFamily="幼圆" FontSize="24" HorizontalAlignment="Stretch" Click="AddMusicFolders_Click" VerticalAlignment="Stretch" Background="Transparent" Content="添加"/>
+                        <Button Margin="5,0,0,5" Grid.Column="1" x:Name="DeleteMusicFolders" FontFamily="幼圆" FontSize="24" HorizontalAlignment="Stretch" Click="DelMusic_Click" VerticalAlignment="Stretch" Background="Transparent" Content="删除"/>
+                        <Button Margin="5,0,5,5" Grid.Column="2" x:Name="ClearMusicFolders" FontFamily="幼圆" FontSize="24" HorizontalAlignment="Stretch" Click="ClearMusic_Click" VerticalAlignment="Stretch" Background="Transparent" Content="清空"/>
+
+                    </Grid>
+                </Grid>
+                <ContentControl x:Name="contCtrlMP" Grid.Column="1" PreviewMouseDoubleClick="contCtrlMP_PreviewMouseDoubleClick"  HorizontalAlignment="Stretch" >
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <GroupBox Grid.Row="0" Visibility="Collapsed" Header="即时播放音乐：" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Foreground="#FFFD7F00" FontSize="30" Margin="30,30,30,0">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock VerticalAlignment="Center" Margin="0,0,20,0" Text="你可以在左侧列表中选择要即时播放的音乐"/>
+                                <Button Width="150" Content="顺序播放" FontSize="24" Opacity="0.5" Height="50" Margin="20" Click="Button_Click_4"/>
+                                <Button Width="150" Content="随机播放" FontSize="24" Opacity="0.5" Height="50" Margin="20" Click="Button_Click_5"/>
+                            </StackPanel>
+                        </GroupBox>
+                        <MediaElement Width="auto" Height="auto" Visibility="Collapsed" x:Name="MediaPlayer" MouseLeftButtonUp="mediaElement_MouseLeftButtonUp" Volume="{Binding Value, ElementName=sliderVolume}" LoadedBehavior="Manual"/>
+                        <GroupBox Grid.Row="1" Header="定时播放音乐：" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Foreground="#FFFD7F00" FontSize="30" Margin="30,30,30,31">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                <StackPanel Orientation="Horizontal">
+                                    <Label Content="第一步：请在左侧列表中选择播放音乐：" HorizontalAlignment="Left" VerticalAlignment="Center"  Width="648.955" FontSize="27"/>
+                                    <Button Content="全选" Visibility="Hidden" Background="Transparent" FontSize="20" Width="120"/>
+                                    <Button Content="反选" Visibility="Hidden" Background="Transparent" FontSize="20"  Margin="20,0,0,0"  Width="120"/>
+                                </StackPanel>
+                                <StackPanel Orientation="Vertical" Grid.Row="1">
+                                    <Label Content="第二步：定时播放时间段设置：" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,10,0,0" Width="397.214" FontSize="27"/>
+                                    <Grid Margin="30,10">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="Auto"/>
+                                            <RowDefinition Height="Auto"/>
+                                            <RowDefinition Height="Auto"/>
+                                        </Grid.RowDefinitions>
+                                        <StackPanel Orientation="Horizontal">
+                                            <RadioButton x:Name="MeiTian" Content="每天" VerticalContentAlignment="Center" FontSize="24" IsChecked="True" VerticalAlignment="Center"/>
+                                            <RadioButton x:Name="MeiZhou" Content="每周" VerticalContentAlignment="Center" FontSize="24" VerticalAlignment="Center"/>
+                                            <ComboBox x:Name="MeiZhouValue">
+                                                <ComboBox.Items>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="星期一"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="星期二"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="星期三"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="星期四"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="星期五"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="星期六"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="星期日"/>
+                                                    </ItemsControl>
+                                                </ComboBox.Items>
+                                            </ComboBox>
+
+                                            <RadioButton x:Name="MeiYue" Content="每月" VerticalContentAlignment="Center" FontSize="24" VerticalAlignment="Center"/>
+                                            <ComboBox Width="100" Margin="10" x:Name="MeiYueValue">
+                                                <ComboBox.Items>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="1"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="2"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="3"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="4"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="5"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="6"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="7"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="8"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="9"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="10"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="11"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="12"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="13"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="14"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="15"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="16"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="17"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="18"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="19"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="20"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="21"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="22"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="23"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="24"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="25"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="26"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="27"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="28"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="29"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="30"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="31"/>
+                                                    </ItemsControl>
+                                                </ComboBox.Items>
+                                            </ComboBox>
+                                            
+                                            <RadioButton x:Name="SomeDay" Content="指定时间" VerticalContentAlignment="Center" FontSize="24" VerticalAlignment="Center"/>
+                                            <DatePicker x:Name="SomeDayValue" Width="122" FontSize="20" Margin="10"/>
+                                        </StackPanel>
+                                        <StackPanel Orientation="Horizontal" Grid.Row="1">
+                                            <TextBlock Text="开始时间：" FontSize="24" VerticalAlignment="Center"/>
+                                            <ComboBox x:Name="BeginHour" Width="60" Margin="10">
+                                                <ComboBox.Items>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="0"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="1"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="2"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="3"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="4"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="5"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="6"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="7"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="8"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="9"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="10"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="11"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="12"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="13"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="14"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="15"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="16"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="17"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="18"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="19"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="20"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="21"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="22"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="23"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                    </ItemsControl>
+                                                </ComboBox.Items>
+                                            </ComboBox>
+                                            <TextBlock Text="时" VerticalAlignment="Center" FontSize="24" Foreground="#FF0E0000"/>
+                                            <ComboBox x:Name="BeginMinute" Width="60" Margin="10">
+                                                <ComboBox.Items>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="0"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="1"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="2"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="3"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="4"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="5"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="6"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="7"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="8"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="9"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="10"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="11"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="12"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="13"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="14"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="15"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="16"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="17"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="18"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="19"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="20"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="21"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="22"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="23"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="24"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="25"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="26"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="27"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="28"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="29"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="30"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="31"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="32"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="33"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="34"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="35"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="36"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="37"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="38"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="39"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="40"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="41"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="42"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="43"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="44"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="45"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="46"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="47"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="48"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="49"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="50"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="51"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="52"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="53"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="54"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="55"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="56"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="57"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="58"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="59"/>
+                                                    </ItemsControl>
+                                                </ComboBox.Items>
+                                            </ComboBox>
+                                            <TextBlock Text="分" VerticalAlignment="Center" FontSize="24" Foreground="#FF0E0000"/>
+                                            <ComboBox x:Name="BeginSecond" Width="60" Margin="10">
+                                                <ComboBox.Items>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="0"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="1"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="2"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="3"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="4"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="5"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="6"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="7"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="8"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="9"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="10"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="11"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="12"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="13"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="14"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="15"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="16"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="17"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="18"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="19"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="20"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="21"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="22"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="23"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="24"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="25"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="26"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="27"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="28"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="29"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="30"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="31"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="32"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="33"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="34"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="35"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="36"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="37"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="38"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="39"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="40"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="41"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="42"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="43"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="44"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="45"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="46"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="47"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="48"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="49"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="50"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="51"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="52"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="53"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="54"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="55"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="56"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="57"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="58"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="59"/>
+                                                    </ItemsControl>
+                                                </ComboBox.Items>
+                                            </ComboBox>
+                                            <TextBlock Text="秒" VerticalAlignment="Center" FontSize="24"/>                                            
+                                        </StackPanel>
+                                        <StackPanel Orientation="Horizontal" Grid.Row="2">
+                                            <RadioButton x:Name="SetAroundCountBool" FontSize="24" IsChecked="True" Margin="0,0,0,0" Content="指定播放次数后结束：" VerticalContentAlignment="Center"/>
+                                            <ComboBox x:Name="AroundCountValue" Width="60" Margin="10">
+                                                <ComboBox.Items>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="1"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="2"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="3"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="4"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="5"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="6"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="7"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="8"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="9"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="10"/>
+                                                    </ItemsControl>
+                                                </ComboBox.Items>
+                                            </ComboBox>
+                                            <RadioButton x:Name="EndTimerRadio" Content="或者以固定时间结束：" VerticalAlignment="Center" VerticalContentAlignment="Center" Margin="20,0,0,0" FontSize="24"/>
+                                            <ComboBox x:Name="EndHour" Width="60" Margin="10">
+                                                <ComboBox.Items>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="0"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="1"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="2"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="3"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="4"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="5"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="6"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="7"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="8"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="9"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="10"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="11"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="12"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="13"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="14"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="15"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="16"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="17"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="18"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="19"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="20"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="21"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="22"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="23"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                    </ItemsControl>
+                                                </ComboBox.Items>
+                                            </ComboBox>
+                                            <TextBlock Text="时" VerticalAlignment="Center" FontSize="24" Foreground="#FF0E0000"/>
+                                            <ComboBox x:Name="EndMinute" Width="60" Margin="10">
+                                                <ComboBox.Items>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="0"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="1"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="2"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="3"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="4"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="5"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="6"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="7"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="8"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="9"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="10"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="11"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="12"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="13"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="14"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="15"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="16"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="17"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="18"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="19"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="20"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="21"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="22"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="23"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="24"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="25"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="26"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="27"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="28"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="29"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="30"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="31"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="32"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="33"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="34"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="35"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="36"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="37"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="38"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="39"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="40"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="41"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="42"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="43"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="44"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="45"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="46"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="47"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="48"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="49"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="50"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="51"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="52"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="53"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="54"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="55"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="56"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="57"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="58"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="59"/>
+                                                    </ItemsControl>
+                                                </ComboBox.Items>
+                                            </ComboBox>
+                                            <TextBlock Text="分" VerticalAlignment="Center" FontSize="24" Foreground="#FF0E0000"/>
+                                            <ComboBox x:Name="EndSecond" Width="60" Margin="10">
+                                                <ComboBox.Items>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="0"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="1"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="2"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="3"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="4"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="5"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="6"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="7"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="8"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="9"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="10"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="11"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="12"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="13"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="14"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="15"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="16"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="17"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="18"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="19"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="20"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="21"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="22"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="23"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="24"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="25"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="26"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="27"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="28"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="29"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="30"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="31"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="32"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="33"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="34"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="35"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="36"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="37"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="38"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="39"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="40"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="41"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="42"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="43"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="44"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="45"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="46"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="47"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="48"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="49"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="50"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="51"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="52"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="53"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="54"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="55"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="56"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="57"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="58"/>
+                                                    </ItemsControl>
+                                                    <ItemsControl>
+                                                        <TextBlock Text="59"/>
+                                                    </ItemsControl>
+                                                </ComboBox.Items>
+                                            </ComboBox>
+                                            <TextBlock Text="秒" VerticalAlignment="Center" FontSize="24" Foreground="#FF0E0000"/>
+                                            
+                                        </StackPanel>
+                                    </Grid>
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal" Grid.Row="2">
+                                    <Label Content="第三步：设定播放顺序：" HorizontalAlignment="Left" VerticalAlignment="Center" Width="300" FontSize="27"/>
+                                    <RadioButton x:Name="OrderBool" Content="顺序播放" VerticalContentAlignment="Center" FontSize="24" IsChecked="True" VerticalAlignment="Center"/>
+                                    <RadioButton x:Name="RandomBool" Content="随机播放" VerticalContentAlignment="Center" FontSize="24" VerticalAlignment="Center"/>
+                                </StackPanel>
+                                <StackPanel x:Name="FourStep" Orientation="Horizontal" Grid.Row="3">
+                                    <Label Content="第四步：设定播放音响：" HorizontalAlignment="Left" VerticalAlignment="Center" Width="300" FontSize="27"/>
+                                    <ComboBox x:Name="VideoValue" Width="100" Margin="10" SelectedIndex="0">
+                                        <!--<ComboBox.Items>
+                                            <ItemsControl>
+                                                <TextBlock Text="所有"/>
+                                            </ItemsControl>
+                                        </ComboBox.Items>-->
+                                    </ComboBox>
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal" Grid.Row="4">
+                                    <Label x:Name="FiveStepLabel" Content="第五步：确认：" HorizontalAlignment="Left" VerticalAlignment="Center" Width="192" FontSize="27"/>
+                                    <Button Content="加入数据" Background="Transparent" FontSize="20" Width="120" Click="AddPlanDataClick"/>
+                                    <Button Content="修改数据" Background="Transparent" FontSize="20"  Margin="20,0,0,0"  Width="120" Click="ChangePlanDataClick"/>
+                                </StackPanel>
+                                <Grid Grid.Row="5" Margin="0,20,0,0" VerticalAlignment="Stretch">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="Auto"/>
+                                    </Grid.RowDefinitions>
+                                    <TextBlock Text="定时播放音乐计划列表："/>
+                                    <ListView x:Name="PlanList" Grid.Row="1" ItemsSource="{Binding}" VerticalAlignment="Stretch" Margin="0,10,10,10" Background="#FFDADADA" FontSize="22">
+                                        <ListView.View>
+                                            <GridView>
+                                                <GridViewColumn Header="文件个数" Width="100" DisplayMemberBinding="{Binding Path=FileCount}" />
+                                                <GridViewColumn Header="播放日期" Width="200" DisplayMemberBinding="{Binding Path=Date}" />
+                                                <GridViewColumn Header="开始时间" Width="200"  DisplayMemberBinding="{Binding Path=BeginTime}"/>
+                                                <GridViewColumn Header="结束时间或次数" Width="200" DisplayMemberBinding="{Binding Path=EndTime}" />
+                                                <GridViewColumn Header="播放顺序" Width="140" DisplayMemberBinding="{Binding Path=Order}" />
+                                                <GridViewColumn Header="播放音响" Width="160" DisplayMemberBinding="{Binding Path=Sound}" />
+                                                <GridViewColumn Header="文件路径" Width="200" DisplayMemberBinding="{Binding Path=MusicPaths}" />
+                                            </GridView>
+                                        </ListView.View>
+                                    </ListView>
+                                    <StackPanel Orientation="Horizontal" Grid.Row="2">
+                                        <Button Content="删除" Background="Transparent" FontSize="20" Width="120" Click="Button_Click_2"/>
+                                        <Button Content="清空" Background="Transparent" FontSize="20"  Margin="20,0,0,0"  Width="120" Height="27" VerticalAlignment="Bottom" Click="Button_Click_3"/>
+
+                                    </StackPanel>
+
+                                </Grid>
+                            </Grid>
+                        </GroupBox>
+                        <!--<GroupBox Header="广播讲话功能：" HorizontalAlignment="Left" Height="148" Margin="10,10,0,0" VerticalAlignment="Top" Width="1460" FontSize="30">
+                            <StackPanel Orientation="Vertical">
+                                <Label Content="第一步：请确保麦克风连接到考勤机或者无线广播发射机上" FontSize="27"/>
+                                <StackPanel Orientation="Horizontal">
+                                    <Label Content="第二步：请选择播放音响：" FontSize="27"/>
+                                    <ComboBox Width="100" Margin="10" SelectedIndex="0">
+                                        <ComboBox.Items>
+                                            <ItemsControl>
+                                                <TextBlock Text="所有"/>
+                                            </ItemsControl>
+                                        </ComboBox.Items>
+                                    </ComboBox>
+                                </StackPanel>
+                            </StackPanel>
+                        </GroupBox>-->
+                        <!--<local:FlipTile3D Margin="100"/>-->
+                    </Grid>
+                </ContentControl>
+            </Grid>
+            <Grid Grid.Row="2" Background="Transparent">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="3"/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <DockPanel HorizontalAlignment="Stretch" Grid.Row="0">
+                        <ProgressBar x:Name="progressMusic" Height="5" Margin="0,0,0,0" FlowDirection="LeftToRight" Foreground="#FF09AC09" Background="Transparent"/>
+                    </DockPanel>
+                    <Grid Grid.Row="1">
+                        <DockPanel>
+                            <Image x:Name="imgMusicAuthor" HorizontalAlignment="Stretch" Width="50" Height="50" Source="./Resource/Artist/DefaultAuthor.png"/>
+                            <Label x:Name="lblMusicCurrent" Height="40" Background="Transparent" Width="400" FontSize="20" Foreground="White"  VerticalAlignment="Stretch" Content="暂无播放歌曲"/>
+                            <Button  x:Name="btnLast" FontFamily="幼圆" FontSize="18" Height="50" HorizontalAlignment="Left" Margin="0,16,25,12" Click="btnLast_Click" VerticalAlignment="Stretch" Width="60" Background="Transparent" Foreground="White" Content="上一首"/>
+                            <Button  x:Name="btnPlay" FontFamily="幼圆" FontSize="18" Height="50" HorizontalAlignment="Left" Margin="0,16,25,12" Click="btnPlay_Click" VerticalAlignment="Stretch" Width="60" Background="Transparent" Foreground="White" Content="播放"/>
+                            <Button  x:Name="btnNext" FontFamily="幼圆" FontSize="18" Height="50" HorizontalAlignment="Left" Margin="0,16,25,12" Click="btnNext_Click" VerticalAlignment="Stretch" Width="60" Background="Transparent" Foreground="White" Content="下一首"/>
+                            <Button  x:Name="btnStop" FontFamily="幼圆" FontSize="18" Height="50" HorizontalAlignment="Left" Margin="0,16,25,12" Click="btnStop_Click" VerticalAlignment="Stretch" Width="60" Background="Transparent" Foreground="White" Content="停止"/>
+                            <Button  x:Name="btnQuickLast" FontFamily="幼圆" FontSize="18" Height="50" HorizontalAlignment="Left" Margin="0,16,25,12" Click="btnQuickLast_Click" VerticalAlignment="Stretch" Width="60" Background="Transparent" Foreground="White" Content="快退"/>
+                            <Button  x:Name="btnQuickNext" FontFamily="幼圆" FontSize="18" Height="50" HorizontalAlignment="Left" Margin="0,14.5,25,13.5" Click="btnQuickNext_Click" VerticalAlignment="Stretch" Width="60" Background="Transparent" Foreground="White" Content="快进"/>
+                            <Image x:Name="imgvolTip" Margin="5,0,0,0" HorizontalAlignment="Right" Source="./Themes/Icon/音频与视频播放器图标8.ico" VerticalAlignment="Stretch" />
+
+                            <Slider Margin="0,39,5,39" x:Name="sliderVolume" Height="15" Background="DarkCyan" Maximum="2" Minimum="0" Value="0.5" VerticalAlignment="Center" Width="262" Foreground="Black"/>
+                            <Label x:Name="lblVolValue" Height="40" HorizontalAlignment="Left" Content="{Binding Value, ElementName=sliderVolume}" Foreground="White" Margin="0,23,0,15"/>
+
+                            <Label x:Name="lblProgressValue" Height="30" HorizontalAlignment="Right" Foreground="White"/>
+                        </DockPanel>
+                    </Grid>
+                </Grid>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

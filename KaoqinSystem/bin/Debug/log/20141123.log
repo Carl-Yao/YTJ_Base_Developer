@@ -1,0 +1,45 @@
+﻿LogMessageTime:2014/11/23 20:27:18
+LogMessageType:Error
+LogMessageContent:升级程序发生异常！UpdateApplication:调用的目标发生了异常。
+LogMessageTime:2014/11/23 20:27:23
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2014/11/23 20:27:43
+LogMessageType:Error
+LogMessageContent:获取公告发生异常！DownloadGroupInfo:调用的目标发生了异常。
+LogMessageTime:2014/11/23 20:28:04
+LogMessageType:Error
+LogMessageContent:获取学生数据发生异常！DownloadStudentInfo:调用的目标发生了异常。
+LogMessageTime:2014/11/23 20:30:31
+LogMessageType:Error
+LogMessageContent:获取家长数据发生异常！DownloadParentInfo:调用的目标发生了异常。
+LogMessageTime:2014/11/23 20:32:45
+LogMessageType:Error
+LogMessageContent:获取IC卡数据发生异常！DownloadCardInfo:调用的目标发生了异常。
+LogMessageTime:2014/11/23 20:33:13
+LogMessageType:Error
+LogMessageContent:初始化IC卡读写器失败，请检查连接是否正确。返回码：
+LogMessageTime:2014/11/23 21:54:55
+LogMessageType:Error
+LogMessageContent:升级程序发生异常！UpdateApplication:调用的目标发生了异常。
+LogMessageTime:2014/11/23 21:54:58
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2014/11/23 21:55:19
+LogMessageType:Error
+LogMessageContent:获取公告发生异常！DownloadGroupInfo:调用的目标发生了异常。
+LogMessageTime:2014/11/23 21:55:40
+LogMessageType:Error
+LogMessageContent:获取学生数据发生异常！DownloadStudentInfo:调用的目标发生了异常。
+LogMessageTime:2014/11/23 21:56:05
+LogMessageType:Error
+LogMessageContent:获取家长数据发生异常！DownloadParentInfo:调用的目标发生了异常。
+LogMessageTime:2014/11/23 22:05:52
+LogMessageType:Error
+LogMessageContent:升级程序发生异常！UpdateApplication:调用的目标发生了异常。
+LogMessageTime:2014/11/23 22:05:54
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2014/11/23 22:06:15
+LogMessageType:Error
+LogMessageContent:获取公告发生异常！DownloadGroupInfo:调用的目标发生了异常。
