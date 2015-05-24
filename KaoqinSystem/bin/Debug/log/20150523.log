@@ -4,3 +4,36 @@ LogMessageContent:ggg_webserviceManager18:02
 LogMessageTime:2015-05-23 18:48:20
 LogMessageType:Error
 LogMessageContent:ggg_webserviceManager18:48
+LogMessageTime:2015-05-23 18:57:33
+LogMessageType:Error
+LogMessageContent:ggg_webserviceManager18:57
+LogMessageTime:2015-05-23 21:00:44
+LogMessageType:Error
+LogMessageContent:ggg_webserviceManager21:00
+LogMessageTime:2015-05-23 21:09:36
+LogMessageType:Error
+LogMessageContent:ggg_webserviceManager21:09
+LogMessageTime:2015-05-23 21:09:42
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2015-05-23 21:09:43
+LogMessageType:Error
+LogMessageContent:ggg_InitDevices21:09
+LogMessageTime:2015-05-23 21:09:45
+LogMessageType:Error
+LogMessageContent:初始化IC卡读写器失败，请检查连接是否正确。返回码：
+LogMessageTime:2015-05-23 21:09:49
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2015-05-23 21:09:49
+LogMessageType:Error
+LogMessageContent:ggg_InitDevices21:09
+LogMessageTime:2015-05-23 21:10:15
+LogMessageType:Error
+LogMessageContent:ggg_webserviceManager21:10
+LogMessageTime:2015-05-23 21:10:17
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2015-05-23 21:10:17
+LogMessageType:Error
+LogMessageContent:ggg_InitDevices21:10

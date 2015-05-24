@@ -118,7 +118,7 @@ namespace SwipCardSystem.View
                 //上传
                 List<KaoqinInfo> kaoqinInfos = new List<KaoqinInfo>();
                 _mySqlManager.GetAllKaoqinRecord(ref kaoqinInfos);
-                if (_webServiceManager.UploadDataAll(kaoqinInfos))//_webServiceManager.UploadDataAll(kaoqinInfos) && _webServiceManager.UploadPicAll(kaoqinInfos))
+                if (_webServiceManager.UploadDataAllInTime(kaoqinInfos))//_webServiceManager.UploadDataAll(kaoqinInfos) && _webServiceManager.UploadPicAll(kaoqinInfos))
                 {
                     //VoiceManager.Speak("上传数据成功！");
                     bRet = true;
@@ -128,17 +128,6 @@ namespace SwipCardSystem.View
                     //VoiceManager.Speak("上传数据失败！");
                     bRet = false;
                 }
-                //补充删除，防止文件遗留过多
-                //清空parentpicture文件夹下的照片文件
-                DirectoryInfo directory = new DirectoryInfo(System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName.Replace(System.Diagnostics.Process.GetCurrentProcess().MainModule.ModuleName, "") + Constants.CAPTUREPICTURE_FOLDERNAME);
-                FileInfo[] files = directory.GetFiles();
-                foreach (FileInfo file in files)
-                {
-                    File.Delete(file.DirectoryName + @"\" + file.Name);
-                }
-
-                _mySqlManager.ClearDataTable(true);
-                _mySqlManager.CreateDataTable(true);
             }
             catch
             {

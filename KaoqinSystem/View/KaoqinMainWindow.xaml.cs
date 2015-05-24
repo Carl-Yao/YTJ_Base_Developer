@@ -369,18 +369,18 @@ namespace SwipCardSystem.View
                     }
                     if (bRet)
                     {
-                        //补充删除，防止文件遗留过多
-                        //清空parentpicture文件夹下的照片文件
-                        DirectoryInfo directory = new DirectoryInfo(System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName.Replace(System.Diagnostics.Process.GetCurrentProcess().MainModule.ModuleName, "") + Constants.CAPTUREPICTURE_FOLDERNAME);
-                        FileInfo[] files = directory.GetFiles();
-                        foreach (FileInfo file in files)
-                        {
-                            File.Delete(file.DirectoryName + @"\" + file.Name);
-                        }
+                        ////补充删除，防止文件遗留过多
+                        ////清空parentpicture文件夹下的照片文件
+                        //DirectoryInfo directory = new DirectoryInfo(System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName.Replace(System.Diagnostics.Process.GetCurrentProcess().MainModule.ModuleName, "") + Constants.CAPTUREPICTURE_FOLDERNAME);
+                        //FileInfo[] files = directory.GetFiles();
+                        //foreach (FileInfo file in files)
+                        //{
+                        //    File.Delete(file.DirectoryName + @"\" + file.Name);
+                        //}
 
-                        _mySqlManager.ClearDataTable(true);
-                        //--可能创建数据库时与其他线程冲突
-                        _mySqlManager.CreateDataTable(true);
+                        //_mySqlManager.ClearDataTable(true);
+                        ////--可能创建数据库时与其他线程冲突
+                        //_mySqlManager.CreateDataTable(true);
                     }
                 }
                 catch
@@ -917,11 +917,19 @@ namespace SwipCardSystem.View
                 {
                     if (_mySqlManager.IsTeacherRecord(_kaoqinInfo.ICCardNo))
                     {
-                        _webserviceManager.UploadDataOne(_kaoqinInfo, false, true);
+                        Task.Factory.StartNew(() =>
+                        {
+                            _webserviceManager.UploadDataOne(_kaoqinInfo, false, true);
+                        }
+                        );
                     }
                     else
                     {
-                        _webserviceManager.UploadDataOne(_kaoqinInfo, false);
+                        Task.Factory.StartNew(() =>
+                        {
+                            _webserviceManager.UploadDataOne(_kaoqinInfo, false);
+                        }
+                        );
                     }
                 }
                 else

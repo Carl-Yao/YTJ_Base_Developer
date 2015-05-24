@@ -195,11 +195,11 @@ namespace SwipCardSystem.Controller
         public bool UploadDataOne(KaoqinInfo kaoqinRecord, bool isFromMySQL, bool isTeacherRecord = false)
         {
             string ret = string.Empty;
-
+            bool bRet = true;
             try
             {
-                Task.Factory.StartNew(() =>
-                    {
+                //Task.Factory.StartNew(() =>
+                //    {
                         try
                         {
                             if (kaoqinRecord != null)
@@ -250,17 +250,38 @@ namespace SwipCardSystem.Controller
                                 {
                                     if (isFromMySQL)
                                     {
-                                        SaveKaoqinRecordAndPicture(kaoqinRecord);
+                                        //上传本地数据库考勤记录失败，则返回false，以便于不删除本地数据
+                                        bRet = false;
                                         Log.LogInstance.Write("UploadDataOne:Fail---isFromMySQL---" + kaoqinRecord.StudentID, MessageType.Error);
                                     }
                                     else
                                     {
+                                        SaveKaoqinRecordAndPicture(kaoqinRecord);
                                         Log.LogInstance.Write("UploadDataOne:Fail---" + kaoqinRecord.StudentID, MessageType.Error);
                                     }                                   
                                 }
                                 else
                                 {
-                                    Log.LogInstance.Write("UploadDataOne:Success---" + kaoqinRecord.StudentID, MessageType.Success);
+                                    if (isFromMySQL)
+                                    {
+                                        //补充删除，防止文件遗留过多
+                                        //清空parentpicture文件夹下的照片文件
+                                        DirectoryInfo directory = new DirectoryInfo(System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName.Replace(System.Diagnostics.Process.GetCurrentProcess().MainModule.ModuleName, "") + Constants.CAPTUREPICTURE_FOLDERNAME);
+                                        
+                                        File.Delete(kaoqinRecord.PicturePath);
+
+                                        _mySqlManager.DeleteOneRecordData(kaoqinRecord.RecordId);
+                                        //_mySqlManager.ClearDataTable(true);
+                                        //--可能创建数据库时与其他线程冲突
+                                        //_mySqlManager.CreateDataTable(true);
+
+                                        Log.LogInstance.Write("UploadDataOne:Success---isFromSQL---" + kaoqinRecord.StudentID, MessageType.Success);
+                                    }
+                                    else
+                                    {
+                                        Log.LogInstance.Write("UploadDataOne:Success---" + kaoqinRecord.StudentID, MessageType.Success);
+                                    }
+                                    
                                 }
                                 Console.Out.WriteLine((i++).ToString() + "---" + kaoqinRecord.TemplateVal + "---" + ret);
                             }
@@ -269,8 +290,9 @@ namespace SwipCardSystem.Controller
                         {
                             SaveKaoqinRecordAndPicture(kaoqinRecord);
                             Log.LogInstance.Write("UploadDataOne" + e.Message, MessageType.Error);
+                            return false;
                         }
-                    });
+                    //});
             }
             catch
             {
@@ -278,7 +300,7 @@ namespace SwipCardSystem.Controller
             }
             //上传记录ID为kaoqinRecord的数据
             //上传后把标识设为Y
-            return true;
+            return bRet;
         }
         public void SaveKaoqinRecordAndPicture(KaoqinInfo kaoqinInfo)
         {
@@ -296,6 +318,7 @@ namespace SwipCardSystem.Controller
         {
             //查看数据库到9点前的所有记录，看标识为N的上传
             string ret = string.Empty;
+            bool bRet = true;
             try
             {
                 if (kaoqinInfos.Count > 0)
@@ -310,8 +333,12 @@ namespace SwipCardSystem.Controller
                         System.Drawing.Bitmap newPic = new System.Drawing.Bitmap(kaoqinInfo.PicturePath);
                         string pictureBase64 = string.Empty;
                         ImageToBase64.ImgToBase64String(newPic, ref pictureBase64);
+                        newPic.Dispose();
                         kaoqinInfo.PictureBase64 = pictureBase64;
-                        UploadDataOne(kaoqinInfo, true, _mySqlManager.IsTeacherRecord(kaoqinInfo.ICCardNo));
+                        if (!UploadDataOne(kaoqinInfo, true, _mySqlManager.IsTeacherRecord(kaoqinInfo.ICCardNo)))
+                        {
+                            bRet = false;
+                        }
                     }
                 }
             }
@@ -323,7 +350,7 @@ namespace SwipCardSystem.Controller
             }
 
             //checkonpic
-            return true;
+            return bRet;
         }
 
         //后台上传考勤数据

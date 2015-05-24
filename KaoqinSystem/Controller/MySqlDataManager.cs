@@ -466,6 +466,25 @@ namespace SwipCardSystem.Controller
 
         }
 
+        public bool DeleteOneRecordData(string recordID)
+        {
+            try//delete from tablename where fieldname1 = '16469' or fieldname2 = '2013-09-21' or fieldname3 is null提问者评价 谢谢!
+            {
+                MySqlHelper.ExecuteNonQuery(MySqlHelper.Conn, CommandType.Text, "delete from tb_kaoqin where record_id = " + recordID, null);
+            }
+            catch (Exception e)
+            {
+                //Log.LogInstance.Write("删除数据表失败！" + e.Message);
+                //VoiceManager.Speak("删除数据表失败！");
+                Log.LogInstance.Write("DeleteOneRecordData---删除数据失败！" + e.Message, MessageType.Error);
+                //MessageBox.Show("删除数据表失败！" + e.Message);
+                return false;
+            }
+
+            return true;
+
+        }
+
         internal void Initilize()
         {
             if (!_isInitilize)
