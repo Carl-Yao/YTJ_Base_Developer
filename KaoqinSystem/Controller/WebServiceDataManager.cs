@@ -267,10 +267,9 @@ namespace SwipCardSystem.Controller
                                         //补充删除，防止文件遗留过多
                                         //清空parentpicture文件夹下的照片文件
                                         DirectoryInfo directory = new DirectoryInfo(System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName.Replace(System.Diagnostics.Process.GetCurrentProcess().MainModule.ModuleName, "") + Constants.CAPTUREPICTURE_FOLDERNAME);
-                                        
-                                        File.Delete(kaoqinRecord.PicturePath);
-
                                         _mySqlManager.DeleteOneRecordData(kaoqinRecord.RecordId);
+                                        File.Delete(kaoqinRecord.PicturePath);
+                                        
                                         //_mySqlManager.ClearDataTable(true);
                                         //--可能创建数据库时与其他线程冲突
                                         //_mySqlManager.CreateDataTable(true);

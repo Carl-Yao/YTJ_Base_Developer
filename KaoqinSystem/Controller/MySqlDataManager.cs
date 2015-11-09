@@ -312,6 +312,13 @@ namespace SwipCardSystem.Controller
 
                     rd1.Close();
                     MySqlHelper.conn.Close();
+
+                    if (!string.IsNullOrEmpty(studentId))
+                    {
+                        MySqlHelper.ExecuteNonQuery(MySqlHelper.Conn, CommandType.Text, @"update " + _configManager.ConfigInfo.StudentTableName + " set is_go_school=1 where STUDENT_ID='" + studentId+"'", null);
+
+                        goSchoolStudentNum = SumStudent(1);
+                    }
                 }
                 if (!isMatch)
                 {
@@ -330,25 +337,23 @@ namespace SwipCardSystem.Controller
                 rdd.Close();
                 MySqlHelper.conn.Close();
 
-                if (!string.IsNullOrEmpty(userId) && !string.IsNullOrEmpty(studentId))
+                if (string.IsNullOrEmpty(userId))
                 {
-                    return true;
-                }
+                    MySqlHelper.ExecuteNonQuery(MySqlHelper.Conn, CommandType.Text, @"update " + _configManager.ConfigInfo.StudentTableName + " set is_go_school=1 where STUDENT_ID=" + studentId, null);
 
-                MySqlHelper.ExecuteNonQuery(MySqlHelper.Conn, CommandType.Text, @"update " + _configManager.ConfigInfo.StudentTableName + " set is_go_school=1 where STUDENT_ID=" + studentId, null);
-                     
-                goSchoolStudentNum = SumStudent(1);
-               
-                MySqlDataReader rddd = MySqlHelper.ExecuteReader(MySqlHelper.Conn, CommandType.Text, "select RELATIONSHIP,NAME, PICTURE from tb_family where STUDENT_ID = " + studentId, null);
-                int i = 0;
-                while (rddd.Read())
-                {
-                    parentNames[i] = (string)rddd["NAME"];
-                    parentRelationships[i] = (string)rddd["RELATIONSHIP"];
-                    picturePath[i++] = (string)rddd["PICTURE"];
+                    goSchoolStudentNum = SumStudent(1);
+
+                    MySqlDataReader rddd = MySqlHelper.ExecuteReader(MySqlHelper.Conn, CommandType.Text, "select RELATIONSHIP,NAME, PICTURE from tb_family where STUDENT_ID = " + studentId, null);
+                    int i = 0;
+                    while (rddd.Read())
+                    {
+                        parentNames[i] = (string)rddd["NAME"];
+                        parentRelationships[i] = (string)rddd["RELATIONSHIP"];
+                        picturePath[i++] = (string)rddd["PICTURE"];
+                    }
+                    rddd.Close();
+                    MySqlHelper.conn.Close();
                 }
-                rddd.Close();
-                MySqlHelper.conn.Close();
             }
             catch (Exception ex)
             {

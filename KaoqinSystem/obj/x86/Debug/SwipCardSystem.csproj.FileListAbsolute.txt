@@ -1,11 +1,11 @@
-C:\Users\User\Desktop\ytjnet\tags\SwipCardSystemBase1.0.0.150406\KaoqinSystem\bin\Debug\SwipCardSystem.exe
-C:\Users\User\Desktop\ytjnet\tags\SwipCardSystemBase1.0.0.150406\KaoqinSystem\bin\Debug\MySql.Data.dll
-C:\Users\User\Desktop\ytjnet\tags\SwipCardSystemBase1.0.0.150406\KaoqinSystem\bin\Debug\Newtonsoft.Json.dll
 C:\Users\User\Desktop\ytjnet\tags\SwipCardSystemBase1.0.0.150406\KaoqinSystem\bin\Debug\SwipCardSystem.exe.config
+C:\Users\User\Desktop\ytjnet\tags\SwipCardSystemBase1.0.0.150406\KaoqinSystem\bin\Debug\SwipCardSystem.exe
 C:\Users\User\Desktop\ytjnet\tags\SwipCardSystemBase1.0.0.150406\KaoqinSystem\bin\Debug\SwipCardSystem.pdb
 C:\Users\User\Desktop\ytjnet\tags\SwipCardSystemBase1.0.0.150406\KaoqinSystem\bin\Debug\AForge.Controls.dll
 C:\Users\User\Desktop\ytjnet\tags\SwipCardSystemBase1.0.0.150406\KaoqinSystem\bin\Debug\AForge.Video.DirectShow.dll
 C:\Users\User\Desktop\ytjnet\tags\SwipCardSystemBase1.0.0.150406\KaoqinSystem\bin\Debug\AForge.Video.dll
+C:\Users\User\Desktop\ytjnet\tags\SwipCardSystemBase1.0.0.150406\KaoqinSystem\bin\Debug\MySql.Data.dll
+C:\Users\User\Desktop\ytjnet\tags\SwipCardSystemBase1.0.0.150406\KaoqinSystem\bin\Debug\Newtonsoft.Json.dll
 C:\Users\User\Desktop\ytjnet\tags\SwipCardSystemBase1.0.0.150406\KaoqinSystem\bin\Debug\Newtonsoft.Json.pdb
 C:\Users\User\Desktop\ytjnet\tags\SwipCardSystemBase1.0.0.150406\KaoqinSystem\bin\Debug\Newtonsoft.Json.xml
 C:\Users\User\Desktop\ytjnet\tags\SwipCardSystemBase1.0.0.150406\KaoqinSystem\obj\x86\Debug\View\ClockUserCtrl.baml

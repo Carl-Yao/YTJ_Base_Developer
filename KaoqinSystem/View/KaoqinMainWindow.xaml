@@ -107,7 +107,7 @@
             </Grid>
 
             <WindowsFormsHost Margin="388.924,173.548,402.261,261.644" d:IsHidden="False" Grid.ColumnSpan="3" Grid.RowSpan="3">
-                <aforge:VideoSourcePlayer x:Name="sourcePlayer" />
+                <aforge:VideoSourcePlayer  x:Name="sourcePlayer" />
             </WindowsFormsHost>
             <Grid Grid.Row="1">
                 <Image Name="kaoqinjietu" Source="/SwipCardSystem;component/Images/nopicture.jpg" Stretch="Fill" Margin="42.489,-13.22,144.646,96.735"/>

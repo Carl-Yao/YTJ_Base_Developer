@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Config>
   <IsFirstUpdate>False</IsFirstUpdate>
-  <InstitutionID>1005</InstitutionID>
-  <Today>24</Today>
-  <InstitutionName>广州市第三幼儿园</InstitutionName>
-  <StudentSumNumber>180</StudentSumNumber>
+  <InstitutionID>1001</InstitutionID>
+  <Today>4</Today>
+  <InstitutionName>广州市第一幼儿园</InstitutionName>
+  <StudentSumNumber>29</StudentSumNumber>
   <ServiceUrl>http://113.105.139.58:8080/ismsapp/webservice/terminalservice.asmx?WSDL</ServiceUrl>
   <AdminAccount>
     <Name>1</Name>
@@ -24,7 +24,7 @@
   </EndTime>
   <ClearRecordFrequencyByDay>30</ClearRecordFrequencyByDay>
   <WaitTimeForToPosterBySecond>30</WaitTimeForToPosterBySecond>
-  <LastClearRecordDay>143</LastClearRecordDay>
+  <LastClearRecordDay>179</LastClearRecordDay>
   <DateBaseName>db_kaoqinsystem</DateBaseName>
   <KaoqinTableName>tb_kaoqin</KaoqinTableName>
   <CardTableName>tb_card</CardTableName>
@@ -32,13 +32,19 @@
   <InstitutionTableName>tb_institution</InstitutionTableName>
   <StudentTableName>tb_student</StudentTableName>
   <KaoqinTableUpdateTime>1</KaoqinTableUpdateTime>
-  <CardTableUpdateTime>2015-05-24 16:19:02</CardTableUpdateTime>
-  <FamilyTableUpdateTime>2015-05-24 16:19:02</FamilyTableUpdateTime>
+  <CardTableUpdateTime>2015-07-04 17:14:06</CardTableUpdateTime>
+  <FamilyTableUpdateTime>2015-07-04 17:14:06</FamilyTableUpdateTime>
   <InstitutionTableUpdateTime>1</InstitutionTableUpdateTime>
-  <StudentTableUpdateTime>2015-05-24 16:19:02</StudentTableUpdateTime>
+  <StudentTableUpdateTime>2015-07-04 17:14:06</StudentTableUpdateTime>
   <ConnectionString>Database='mysql';Data Source='localhost';User Id='root';Password='root';charset='utf8';pooling=true</ConnectionString>
-  <Notice>
-  </Notice>
-  <ZiXun>
-  </ZiXun>
+  <Notice>学期总结@各位尽快提交@2015-07-04 15:34</Notice>
+  <ZiXun>幼儿园简介
+    幼儿园，旧时称蒙养园、幼稚园，为一种学前教育机构，用于对幼儿集中进行保育和教育，通常接纳三至六周岁的幼儿。幼儿园的任务为解除家庭在培养儿童时所受时间、空间、环境的制约，让幼儿身体、智力和心情得以健康发展。可以说幼儿园是小朋友的快乐天地，可以帮助孩子健康快乐地度过童年时光，不仅学到知识，而且可以从小接触集体生活。幼儿园教育作为整个教育体系基础的基础，是对儿童进行预备教育（性格完整健康、行为习惯良好、初步的自然与社会常识）。其教育课程没有明显的区分，大概由语言、科学、艺术、健康和社会等五个领域以及各种活动构成。
+
+
+关于幼儿园的话题
+--诺诺2岁11月16天　　诺诺进入幼儿园已经有两周多了，每次放学去接时，总能听到老师表扬的声音，而诺诺每次也会对自己作个评价：今天比昨天要好！　　第一周上幼儿园时，对幼儿园的话题我们忌讳如深，怕引起她的紧张与不适，而诺诺也拒绝谈幼儿园的事。这几天不同了，诺诺开始说幼儿园的事了，诺妈从诺诺的言语中陆陆续续得到了些信息。　　午睡时老师要检查的：中秋假日时诺诺一直不睡午睡，精神特别好，问她幼儿园怎么入睡的，回答：“幼儿园睡觉时，老师要检查的，老师说，小朋友们，睡觉了，等会要检查的，我闭着眼睛，就睡着了！”原来老师的话份量很足呢！　　记幼儿园小朋友的名字：有一次，诺妈问她，你认识了哪些小朋友，诺诺侧着脑袋想了想，回答说是“雨雨”，雨雨是同个小区的，当然认识啦，再问她还有谁认识，说是“瓜瓜”，又说是“不是瓜瓜，是丝丝，丝瓜的丝”！还有这名字，诺诺肯定的神情，“是叫丝丝，肯定是，她是我的好朋友，妈妈，下次我过生日时你要把她请过来啊”！，诺妈事后和诺诺一起看幼儿园照片，最后确定在施成悦的小女孩身上，她的小名叫思思。昨天，诺妈又问她了，“现在认识了几个小朋友？”，“好好叫蒋宜辰”，“我好象有些忘记了，今天我还叫了好多小朋友的名字呢！”最后想啊想，终于报了几个名字，“云云”，“闹闹”“王艺勤”，名单中果真有呢！　　擦屁股时怎么办：昨天尿尿时，诺诺自己拿着张餐巾纸在往屁股上擦，可是手的位置擦的不是很准确，诺妈帮她纠正后，问她：“那你在幼儿园里擦屁股怎么办啊？”，回答：“幼儿园里不擦屁股的啦”“我一拉好，就剥上裤子了”然后自己一连串的笑！　　幼儿园里没被欺负：这几天诺诺比较喜欢看婴儿画报随刊赠送的VCD，里面有个故事叫“不被欺负有办法”，最后，主持人问：小朋友在幼儿园有没有被人欺负呢？欺负的话应该怎么办？要告诉老师和爸爸妈妈”，我问诺诺：“你在幼儿园有没有人欺负你呢？”她说“没有的，我们幼儿园很好的啦！”诺妈是第一次听她夸奖自己的幼儿园，再追问一句：“真的很好吗？”俏皮的诺诺就转而言它了！
+
+
+</ZiXun>
 </Config>

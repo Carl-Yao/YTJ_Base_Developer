@@ -173,9 +173,6 @@ namespace SwipCardSystem.View
                     timer2.Interval = new TimeSpan(1, 0, 0);
                     timer2.IsEnabled = true;
 
-                    
-
-
                     _soundConfigMageger = SoundConfigManager.CreateSingleton();
 
                     List<string> list = new List<string>();
@@ -663,6 +660,7 @@ namespace SwipCardSystem.View
                     baba.Visibility = Visibility.Collapsed;
                     mama.Visibility = Visibility.Collapsed;
                     jiaoshixingming.Text = studentName;
+                    yidaorenshu.Text = isGoSchoolStudentNum;
                     jiaoshishuakashijian.Text = now.ToString("HH:mm:ss");
                     if (_mySqlManager == null)
                     {
