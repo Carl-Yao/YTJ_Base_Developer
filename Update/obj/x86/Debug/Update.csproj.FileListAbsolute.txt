@@ -1,0 +1,16 @@
+C:\Users\User\Desktop\ytjnet\tags\SwipCardSystemBase1.0.0.150406\KaoqinSystem\bin\Debug\Update.exe
+C:\Users\User\Desktop\ytjnet\tags\SwipCardSystemBase1.0.0.150406\KaoqinSystem\bin\Debug\Update.pdb
+C:\Users\User\Desktop\ytjnet\tags\SwipCardSystemBase1.0.0.150406\Update\obj\x86\Debug\Update.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\ytjnet\tags\SwipCardSystemBase1.0.0.150406\Update\obj\x86\Debug\ProgressUserControl.baml
+C:\Users\User\Desktop\ytjnet\tags\SwipCardSystemBase1.0.0.150406\Update\obj\x86\Debug\MainWindow.g.cs
+C:\Users\User\Desktop\ytjnet\tags\SwipCardSystemBase1.0.0.150406\Update\obj\x86\Debug\ProgressUserControl.g.cs
+C:\Users\User\Desktop\ytjnet\tags\SwipCardSystemBase1.0.0.150406\Update\obj\x86\Debug\App.g.cs
+C:\Users\User\Desktop\ytjnet\tags\SwipCardSystemBase1.0.0.150406\Update\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\User\Desktop\ytjnet\tags\SwipCardSystemBase1.0.0.150406\Update\obj\x86\Debug\Update_MarkupCompile.cache
+C:\Users\User\Desktop\ytjnet\tags\SwipCardSystemBase1.0.0.150406\Update\obj\x86\Debug\Update_MarkupCompile.lref
+C:\Users\User\Desktop\ytjnet\tags\SwipCardSystemBase1.0.0.150406\Update\obj\x86\Debug\MainWindow.baml
+C:\Users\User\Desktop\ytjnet\tags\SwipCardSystemBase1.0.0.150406\Update\obj\x86\Debug\Update.g.resources
+C:\Users\User\Desktop\ytjnet\tags\SwipCardSystemBase1.0.0.150406\Update\obj\x86\Debug\Update.Properties.Resources.resources
+C:\Users\User\Desktop\ytjnet\tags\SwipCardSystemBase1.0.0.150406\Update\obj\x86\Debug\Update.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\ytjnet\tags\SwipCardSystemBase1.0.0.150406\Update\obj\x86\Debug\Update.exe
+C:\Users\User\Desktop\ytjnet\tags\SwipCardSystemBase1.0.0.150406\Update\obj\x86\Debug\Update.pdb

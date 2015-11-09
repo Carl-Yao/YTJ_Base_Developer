@@ -1,0 +1,18 @@
+﻿LogMessageTime:2015-07-04 14:18:46
+LogMessageType:Error
+LogMessageContent:ggg_webserviceManager14:18
+LogMessageTime:2015-07-04 14:18:47
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2015-07-04 14:18:47
+LogMessageType:Error
+LogMessageContent:ggg_InitDevices14:18
+LogMessageTime:2015-07-04 14:18:49
+LogMessageType:Error
+LogMessageContent:初始化IC卡读写器失败，请检查连接是否正确。返回码：
+LogMessageTime:2015-07-04 14:18:51
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2015-07-04 14:18:51
+LogMessageType:Error
+LogMessageContent:ggg_InitDevices14:18

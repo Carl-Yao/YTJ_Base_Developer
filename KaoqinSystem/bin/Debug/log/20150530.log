@@ -1,0 +1,363 @@
+﻿LogMessageTime:2015-05-30 14:51:48
+LogMessageType:Error
+LogMessageContent:远程服务器返回错误: (500) 内部服务器错误。
+LogMessageTime:2015-05-30 14:51:52
+LogMessageType:Error
+LogMessageContent:ggg_webserviceManager14:51
+LogMessageTime:2015-05-30 14:51:52
+LogMessageType:Error
+LogMessageContent:升级程序发生异常！UpdateApplication:调用的目标发生了异常。
+LogMessageTime:2015-05-30 14:52:03
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2015-05-30 14:52:04
+LogMessageType:Error
+LogMessageContent:获取公告发生异常！DownloadGroupInfo:调用的目标发生了异常。
+LogMessageTime:2015-05-30 14:52:05
+LogMessageType:Error
+LogMessageContent:获取资讯发生异常！DownloadGroupInfo:调用的目标发生了异常。
+LogMessageTime:2015-05-30 14:52:06
+LogMessageType:Error
+LogMessageContent:获取资讯发生异常！DownloadGroupInfo:调用的目标发生了异常。
+LogMessageTime:2015-05-30 14:52:06
+LogMessageType:Error
+LogMessageContent:获取学生数据发生异常！DownloadStudentInfo:调用的目标发生了异常。
+LogMessageTime:2015-05-30 14:52:07
+LogMessageType:Error
+LogMessageContent:获取教师数据发生异常！DownloadTeacherInfo:调用的目标发生了异常。
+LogMessageTime:2015-05-30 14:52:08
+LogMessageType:Error
+LogMessageContent:获取家长数据发生异常！DownloadParentInfo:调用的目标发生了异常。
+LogMessageTime:2015-05-30 14:52:08
+LogMessageType:Error
+LogMessageContent:获取IC卡数据发生异常！DownloadCardInfo:调用的目标发生了异常。
+LogMessageTime:2015-05-30 14:52:08
+LogMessageType:Error
+LogMessageContent:获取IC卡数据发生异常！DownloadCardInfo:调用的目标发生了异常。
+LogMessageTime:2015-05-30 14:52:09
+LogMessageType:Error
+LogMessageContent:ggg_InitDevices14:52
+LogMessageTime:2015-05-30 14:52:15
+LogMessageType:Error
+LogMessageContent:初始化IC卡读写器失败，请检查连接是否正确。返回码：
+LogMessageTime:2015-05-30 14:52:35
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2015-05-30 14:52:35
+LogMessageType:Error
+LogMessageContent:ggg_InitDevices14:52
+LogMessageTime:2015-05-30 14:53:16
+LogMessageType:Error
+LogMessageContent:获取机构数据发生异常！DownloadGroupInfo:调用的目标发生了异常。
+LogMessageTime:2015-05-30 14:53:18
+LogMessageType:Error
+LogMessageContent:获取公告发生异常！DownloadGroupInfo:调用的目标发生了异常。
+LogMessageTime:2015-05-30 14:53:21
+LogMessageType:Error
+LogMessageContent:获取资讯发生异常！DownloadGroupInfo:调用的目标发生了异常。
+LogMessageTime:2015-05-30 14:53:23
+LogMessageType:Error
+LogMessageContent:获取资讯发生异常！DownloadGroupInfo:调用的目标发生了异常。
+LogMessageTime:2015-05-30 14:53:24
+LogMessageType:Error
+LogMessageContent:获取学生数据发生异常！DownloadStudentInfo:调用的目标发生了异常。
+LogMessageTime:2015-05-30 14:53:25
+LogMessageType:Error
+LogMessageContent:获取教师数据发生异常！DownloadTeacherInfo:调用的目标发生了异常。
+LogMessageTime:2015-05-30 14:53:29
+LogMessageType:Error
+LogMessageContent:获取家长数据发生异常！DownloadParentInfo:调用的目标发生了异常。
+LogMessageTime:2015-05-30 14:53:31
+LogMessageType:Error
+LogMessageContent:获取IC卡数据发生异常！DownloadCardInfo:调用的目标发生了异常。
+LogMessageTime:2015-05-30 14:53:33
+LogMessageType:Error
+LogMessageContent:获取IC卡数据发生异常！DownloadCardInfo:调用的目标发生了异常。
+LogMessageTime:2015-05-30 14:54:07
+LogMessageType:Error
+LogMessageContent:远程服务器返回错误: (500) 内部服务器错误。
+LogMessageTime:2015-05-30 14:54:07
+LogMessageType:Error
+LogMessageContent:ggg_webserviceManager14:54
+LogMessageTime:2015-05-30 14:54:08
+LogMessageType:Error
+LogMessageContent:升级程序发生异常！UpdateApplication:调用的目标发生了异常。
+LogMessageTime:2015-05-30 14:54:08
+LogMessageType:Error
+LogMessageContent:获取公告发生异常！DownloadGroupInfo:调用的目标发生了异常。
+LogMessageTime:2015-05-30 14:54:09
+LogMessageType:Error
+LogMessageContent:获取资讯发生异常！DownloadGroupInfo:调用的目标发生了异常。
+LogMessageTime:2015-05-30 14:54:09
+LogMessageType:Error
+LogMessageContent:获取资讯发生异常！DownloadGroupInfo:调用的目标发生了异常。
+LogMessageTime:2015-05-30 14:54:09
+LogMessageType:Error
+LogMessageContent:获取学生数据发生异常！DownloadStudentInfo:调用的目标发生了异常。
+LogMessageTime:2015-05-30 14:54:09
+LogMessageType:Error
+LogMessageContent:获取教师数据发生异常！DownloadTeacherInfo:调用的目标发生了异常。
+LogMessageTime:2015-05-30 14:54:09
+LogMessageType:Error
+LogMessageContent:获取家长数据发生异常！DownloadParentInfo:调用的目标发生了异常。
+LogMessageTime:2015-05-30 14:54:09
+LogMessageType:Error
+LogMessageContent:获取IC卡数据发生异常！DownloadCardInfo:调用的目标发生了异常。
+LogMessageTime:2015-05-30 14:54:10
+LogMessageType:Error
+LogMessageContent:获取IC卡数据发生异常！DownloadCardInfo:调用的目标发生了异常。
+LogMessageTime:2015-05-30 14:54:10
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2015-05-30 14:54:10
+LogMessageType:Error
+LogMessageContent:ggg_InitDevices14:54
+LogMessageTime:2015-05-30 14:54:10
+LogMessageType:Error
+LogMessageContent:初始化IC卡读写器失败，请检查连接是否正确。返回码：
+LogMessageTime:2015-05-30 14:54:20
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2015-05-30 14:54:21
+LogMessageType:Error
+LogMessageContent:ggg_InitDevices14:54
+LogMessageTime:2015-05-30 14:58:47
+LogMessageType:Error
+LogMessageContent:ggg_webserviceManager14:58
+LogMessageTime:2015-05-30 14:58:48
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2015-05-30 14:58:49
+LogMessageType:Error
+LogMessageContent:ggg_InitDevices14:58
+LogMessageTime:2015-05-30 14:58:50
+LogMessageType:Error
+LogMessageContent:初始化IC卡读写器失败，请检查连接是否正确。返回码：
+LogMessageTime:2015-05-30 14:58:56
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2015-05-30 14:58:56
+LogMessageType:Error
+LogMessageContent:ggg_InitDevices14:58
+LogMessageTime:2015-05-30 14:59:37
+LogMessageType:Error
+LogMessageContent:获取资讯发生异常！DownloadGroupInfo:在 WebClient 请求期间发生异常。
+LogMessageTime:2015-05-30 14:59:42
+LogMessageType:Error
+LogMessageContent:Base64StringToImage 转换失败/nException：参数无效。
+LogMessageTime:2015-05-30 15:00:03
+LogMessageType:Error
+LogMessageContent:Base64StringToImage 转换失败/nException：参数无效。
+LogMessageTime:2015-05-30 15:00:05
+LogMessageType:Error
+LogMessageContent:Base64StringToImage 转换失败/nException：参数无效。
+LogMessageTime:2015-05-30 15:05:15
+LogMessageType:Error
+LogMessageContent:ggg_webserviceManager15:05
+LogMessageTime:2015-05-30 15:05:17
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2015-05-30 15:05:17
+LogMessageType:Error
+LogMessageContent:ggg_InitDevices15:05
+LogMessageTime:2015-05-30 15:28:08
+LogMessageType:Error
+LogMessageContent:ggg_webserviceManager15:28
+LogMessageTime:2015-05-30 15:28:10
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2015-05-30 15:28:11
+LogMessageType:Error
+LogMessageContent:ggg_InitDevices15:28
+LogMessageTime:2015-05-30 15:30:17
+LogMessageType:Error
+LogMessageContent:ggg_webserviceManager15:30
+LogMessageTime:2015-05-30 15:30:19
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2015-05-30 15:30:19
+LogMessageType:Error
+LogMessageContent:ggg_InitDevices15:30
+LogMessageTime:2015-05-30 15:30:21
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2015-05-30 15:30:22
+LogMessageType:Error
+LogMessageContent:ggg_InitDevices15:30
+LogMessageTime:2015-05-30 15:32:14
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2015-05-30 15:32:14
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2015-05-30 15:32:14
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2015-05-30 15:32:14
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2015-05-30 15:32:14
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2015-05-30 15:32:14
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2015-05-30 15:32:14
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2015-05-30 15:32:14
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2015-05-30 15:32:20
+LogMessageType:Success
+LogMessageContent:UploadDataOne:Success---chenmichong
+LogMessageTime:2015-05-30 15:34:03
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2015-05-30 15:34:17
+LogMessageType:Success
+LogMessageContent:UploadDataOne:Success---110000012
+LogMessageTime:2015-05-30 15:39:00
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2015-05-30 15:39:00
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2015-05-30 15:39:00
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2015-05-30 15:39:00
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2015-05-30 15:39:00
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2015-05-30 15:39:00
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2015-05-30 15:39:00
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2015-05-30 15:39:00
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2015-05-30 15:39:04
+LogMessageType:Success
+LogMessageContent:UploadDataOne:Success---chenmichong
+LogMessageTime:2015-05-30 15:39:21
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2015-05-30 15:39:26
+LogMessageType:Success
+LogMessageContent:UploadDataOne:Success---110000020
+LogMessageTime:2015-05-30 15:41:48
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2015-05-30 15:41:49
+LogMessageType:Success
+LogMessageContent:UploadDataOne:Success---110000020
+LogMessageTime:2015-05-30 15:42:32
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2015-05-30 15:42:33
+LogMessageType:Success
+LogMessageContent:UploadDataOne:Success---110000012
+LogMessageTime:2015-05-30 15:55:09
+LogMessageType:Error
+LogMessageContent:ggg_webserviceManager15:55
+LogMessageTime:2015-05-30 15:55:10
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2015-05-30 15:55:11
+LogMessageType:Error
+LogMessageContent:ggg_InitDevices15:55
+LogMessageTime:2015-05-30 16:11:31
+LogMessageType:Error
+LogMessageContent:ggg_webserviceManager16:11
+LogMessageTime:2015-05-30 16:11:33
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2015-05-30 16:11:34
+LogMessageType:Error
+LogMessageContent:ggg_InitDevices16:11
+LogMessageTime:2015-05-30 16:11:37
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2015-05-30 16:11:37
+LogMessageType:Error
+LogMessageContent:ggg_InitDevices16:11
+LogMessageTime:2015-05-30 16:14:00
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2015-05-30 16:14:00
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2015-05-30 16:14:00
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2015-05-30 16:14:00
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2015-05-30 16:14:00
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2015-05-30 16:14:00
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2015-05-30 16:14:00
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2015-05-30 16:14:00
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2015-05-30 16:14:00
+LogMessageType:Success
+LogMessageContent:UploadDataOne:Success---chenmichong
+LogMessageTime:2015-05-30 16:24:23
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2015-05-30 16:24:23
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2015-05-30 16:24:23
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2015-05-30 16:24:23
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2015-05-30 16:24:23
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2015-05-30 16:24:23
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2015-05-30 16:24:23
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2015-05-30 16:29:42
+LogMessageType:Error
+LogMessageContent:ggg_webserviceManager16:29
+LogMessageTime:2015-05-30 16:29:51
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2015-05-30 16:29:54
+LogMessageType:Error
+LogMessageContent:ggg_InitDevices16:29
+LogMessageTime:2015-05-30 16:30:01
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2015-05-30 16:30:01
+LogMessageType:Error
+LogMessageContent:ggg_InitDevices16:30
+LogMessageTime:2015-05-30 16:30:28
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2015-05-30 16:30:29
+LogMessageType:Success
+LogMessageContent:UploadDataOne:Success---110000012
+LogMessageTime:2015-05-30 16:30:31
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2015-05-30 16:30:32
+LogMessageType:Success
+LogMessageContent:UploadDataOne:Success---110000020

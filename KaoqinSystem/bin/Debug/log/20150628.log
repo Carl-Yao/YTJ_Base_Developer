@@ -1,0 +1,225 @@
+﻿LogMessageTime:2015-06-28 17:50:36
+LogMessageType:Error
+LogMessageContent:ggg_webserviceManager17:50
+LogMessageTime:2015-06-28 17:51:20
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2015-06-28 17:51:22
+LogMessageType:Error
+LogMessageContent:ggg_InitDevices17:51
+LogMessageTime:2015-06-28 17:51:26
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2015-06-28 17:51:26
+LogMessageType:Error
+LogMessageContent:ggg_InitDevices17:51
+LogMessageTime:2015-06-28 17:51:42
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2015-06-28 17:52:14
+LogMessageType:Success
+LogMessageContent:UploadDataOne:Success---110000020
+LogMessageTime:2015-06-28 18:07:14
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2015-06-28 18:07:22
+LogMessageType:Success
+LogMessageContent:UploadDataOne:Success---110000020
+LogMessageTime:2015-06-28 18:07:32
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2015-06-28 18:07:38
+LogMessageType:Success
+LogMessageContent:UploadDataOne:Success---110000020
+LogMessageTime:2015-06-28 18:07:48
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2015-06-28 18:07:49
+LogMessageType:Success
+LogMessageContent:UploadDataOne:Success---110000020
+LogMessageTime:2015-06-28 18:08:31
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2015-06-28 18:08:32
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2015-06-28 18:08:32
+LogMessageType:Success
+LogMessageContent:UploadDataOne:Success---110000020
+LogMessageTime:2015-06-28 18:08:33
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2015-06-28 18:08:34
+LogMessageType:Success
+LogMessageContent:UploadDataOne:Success---110000020
+LogMessageTime:2015-06-28 18:08:35
+LogMessageType:Success
+LogMessageContent:UploadDataOne:Success---110000020
+LogMessageTime:2015-06-28 18:12:09
+LogMessageType:Error
+LogMessageContent:ggg_webserviceManager18:12
+LogMessageTime:2015-06-28 18:12:09
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2015-06-28 18:12:10
+LogMessageType:Error
+LogMessageContent:ggg_InitDevices18:12
+LogMessageTime:2015-06-28 18:12:12
+LogMessageType:Information
+LogMessageContent:3
+LogMessageTime:2015-06-28 18:12:12
+LogMessageType:Error
+LogMessageContent:ggg_InitDevices18:12
+LogMessageTime:2015-06-28 18:12:53
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2015-06-28 18:12:56
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2015-06-28 18:12:57
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2015-06-28 18:12:57
+LogMessageType:Success
+LogMessageContent:UploadDataOne:Success---110000020
+LogMessageTime:2015-06-28 18:12:58
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2015-06-28 18:12:58
+LogMessageType:Success
+LogMessageContent:UploadDataOne:Success---110000020
+LogMessageTime:2015-06-28 18:12:59
+LogMessageType:Success
+LogMessageContent:UploadDataOne:Success---110000020
+LogMessageTime:2015-06-28 18:13:10
+LogMessageType:Success
+LogMessageContent:UploadDataOne:Success---110000020
+LogMessageTime:2015-06-28 18:17:26
+LogMessageType:Error
+LogMessageContent:获取资讯发生异常！DownloadGroupInfo:在 WebClient 请求期间发生异常。
+LogMessageTime:2015-06-28 18:20:00
+LogMessageType:Error
+LogMessageContent:Base64StringToImage 转换失败/nException：参数无效。
+LogMessageTime:2015-06-28 18:20:00
+LogMessageType:Error
+LogMessageContent:Base64StringToImage 转换失败/nException：参数无效。
+LogMessageTime:2015-06-28 18:20:01
+LogMessageType:Error
+LogMessageContent:Base64StringToImage 转换失败/nException：参数无效。
+LogMessageTime:2015-06-28 18:20:01
+LogMessageType:Error
+LogMessageContent:Base64StringToImage 转换失败/nException：参数无效。
+LogMessageTime:2015-06-28 18:20:01
+LogMessageType:Error
+LogMessageContent:Base64StringToImage 转换失败/nException：参数无效。
+LogMessageTime:2015-06-28 18:20:01
+LogMessageType:Error
+LogMessageContent:Base64StringToImage 转换失败/nException：参数无效。
+LogMessageTime:2015-06-28 18:20:05
+LogMessageType:Error
+LogMessageContent:Base64StringToImage 转换失败/nException：参数无效。
+LogMessageTime:2015-06-28 18:20:05
+LogMessageType:Error
+LogMessageContent:Base64StringToImage 转换失败/nException：参数无效。
+LogMessageTime:2015-06-28 18:20:05
+LogMessageType:Error
+LogMessageContent:Base64StringToImage 转换失败/nException：参数无效。
+LogMessageTime:2015-06-28 18:20:06
+LogMessageType:Error
+LogMessageContent:Base64StringToImage 转换失败/nException：参数无效。
+LogMessageTime:2015-06-28 18:20:06
+LogMessageType:Error
+LogMessageContent:Base64StringToImage 转换失败/nException：参数无效。
+LogMessageTime:2015-06-28 18:20:06
+LogMessageType:Error
+LogMessageContent:Base64StringToImage 转换失败/nException：参数无效。
+LogMessageTime:2015-06-28 18:22:52
+LogMessageType:Error
+LogMessageContent:Base64StringToImage 转换失败/nException：参数无效。
+LogMessageTime:2015-06-28 18:22:53
+LogMessageType:Error
+LogMessageContent:Base64StringToImage 转换失败/nException：参数无效。
+LogMessageTime:2015-06-28 18:22:54
+LogMessageType:Error
+LogMessageContent:Base64StringToImage 转换失败/nException：参数无效。
+LogMessageTime:2015-06-28 18:22:54
+LogMessageType:Error
+LogMessageContent:Base64StringToImage 转换失败/nException：参数无效。
+LogMessageTime:2015-06-28 18:22:55
+LogMessageType:Error
+LogMessageContent:Base64StringToImage 转换失败/nException：参数无效。
+LogMessageTime:2015-06-28 18:22:55
+LogMessageType:Error
+LogMessageContent:Base64StringToImage 转换失败/nException：参数无效。
+LogMessageTime:2015-06-28 20:35:36
+LogMessageType:Error
+LogMessageContent:ggg_webserviceManager20:35
+LogMessageTime:2015-06-28 20:35:41
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2015-06-28 20:35:42
+LogMessageType:Error
+LogMessageContent:ggg_InitDevices20:35
+LogMessageTime:2015-06-28 20:35:44
+LogMessageType:Information
+LogMessageContent:3
+LogMessageTime:2015-06-28 20:35:44
+LogMessageType:Error
+LogMessageContent:ggg_InitDevices20:35
+LogMessageTime:2015-06-28 20:36:16
+LogMessageType:Error
+LogMessageContent:获取资讯发生异常！DownloadGroupInfo:在 WebClient 请求期间发生异常。
+LogMessageTime:2015-06-28 20:37:33
+LogMessageType:Error
+LogMessageContent:ggg_webserviceManager20:37
+LogMessageTime:2015-06-28 20:37:34
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2015-06-28 20:37:35
+LogMessageType:Error
+LogMessageContent:ggg_InitDevices20:37
+LogMessageTime:2015-06-28 20:37:36
+LogMessageType:Information
+LogMessageContent:3
+LogMessageTime:2015-06-28 20:37:36
+LogMessageType:Error
+LogMessageContent:ggg_InitDevices20:37
+LogMessageTime:2015-06-28 20:37:47
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2015-06-28 20:38:01
+LogMessageType:Error
+LogMessageContent:UploadDataOne:Fail---110000020
+LogMessageTime:2015-06-28 20:39:54
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2015-06-28 20:40:53
+LogMessageType:Error
+LogMessageContent:UploadDataOne:Fail---110000020
+LogMessageTime:2015-06-28 20:41:37
+LogMessageType:Error
+LogMessageContent:ggg_webserviceManager20:41
+LogMessageTime:2015-06-28 20:43:18
+LogMessageType:Error
+LogMessageContent:ggg_InitDevices20:43
+LogMessageTime:2015-06-28 20:43:19
+LogMessageType:Information
+LogMessageContent:3
+LogMessageTime:2015-06-28 20:43:19
+LogMessageType:Error
+LogMessageContent:ggg_InitDevices20:43
+LogMessageTime:2015-06-28 20:43:19
+LogMessageType:Error
+LogMessageContent:UploadDataOne:Fail---isFromMySQL---110000020
+LogMessageTime:2015-06-28 20:43:59
+LogMessageType:Error
+LogMessageContent:UploadDataOne:Fail---isFromMySQL---110000020
+LogMessageTime:2015-06-28 20:43:59
+LogMessageType:Error
+LogMessageContent:上传考勤记录失败！
+LogMessageTime:2015-06-28 20:47:37
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2015-06-28 20:47:57
+LogMessageType:Success
+LogMessageContent:UploadDataOne:Success---110000020

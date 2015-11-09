@@ -1,0 +1,249 @@
+﻿LogMessageTime:2015-06-14 17:02:54
+LogMessageType:Error
+LogMessageContent:ggg_webserviceManager17:02
+LogMessageTime:2015-06-14 17:02:55
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2015-06-14 17:02:55
+LogMessageType:Error
+LogMessageContent:ggg_InitDevices17:02
+LogMessageTime:2015-06-14 17:02:58
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2015-06-14 17:02:58
+LogMessageType:Error
+LogMessageContent:ggg_InitDevices17:02
+LogMessageTime:2015-06-14 17:03:13
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2015-06-14 17:03:13
+LogMessageType:Success
+LogMessageContent:UploadDataOne:Success---110000014
+LogMessageTime:2015-06-14 17:03:41
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2015-06-14 17:03:41
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2015-06-14 17:03:41
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2015-06-14 17:03:41
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2015-06-14 17:03:41
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2015-06-14 17:03:41
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2015-06-14 17:03:41
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2015-06-14 17:03:41
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2015-06-14 17:03:55
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2015-06-14 17:04:36
+LogMessageType:Error
+LogMessageContent:UploadDataOne调用的目标发生了异常。
+LogMessageTime:2015-06-14 17:07:35
+LogMessageType:Success
+LogMessageContent:UploadDataOne:Success---isFromSQL---110000014
+LogMessageTime:2015-06-14 17:07:35
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2015-06-14 17:10:01
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2015-06-14 17:10:02
+LogMessageType:Success
+LogMessageContent:UploadDataOne:Success---110000014
+LogMessageTime:2015-06-14 17:11:11
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2015-06-14 17:11:11
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2015-06-14 17:11:11
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2015-06-14 17:11:11
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2015-06-14 17:11:11
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2015-06-14 17:11:11
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2015-06-14 17:11:11
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2015-06-14 17:11:11
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2015-06-14 17:11:31
+LogMessageType:Error
+LogMessageContent:UploadDataOne调用的目标发生了异常。
+LogMessageTime:2015-06-14 17:11:35
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2015-06-14 17:15:22
+LogMessageType:Success
+LogMessageContent:UploadDataOne:Success---isFromSQL---chenmichong
+LogMessageTime:2015-06-14 17:15:24
+LogMessageType:Success
+LogMessageContent:UploadDataOne:Success---isFromSQL---110000014
+LogMessageTime:2015-06-14 17:15:24
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2015-06-14 22:05:46
+LogMessageType:Error
+LogMessageContent:ggg_webserviceManager22:05
+LogMessageTime:2015-06-14 22:05:48
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！
+LogMessageTime:2015-06-14 22:05:48
+LogMessageType:Error
+LogMessageContent:ggg_InitDevices22:05
+LogMessageTime:2015-06-14 22:05:49
+LogMessageType:Error
+LogMessageContent:初始化温度计设备失败！
+LogMessageTime:2015-06-14 22:05:49
+LogMessageType:Error
+LogMessageContent:ggg_InitDevices22:05
+LogMessageTime:2015-06-14 22:06:05
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2015-06-14 22:06:05
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2015-06-14 22:06:05
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2015-06-14 22:06:05
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2015-06-14 22:06:05
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2015-06-14 22:06:05
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2015-06-14 22:06:05
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2015-06-14 22:06:05
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2015-06-14 22:06:10
+LogMessageType:Success
+LogMessageContent:UploadDataOne:Success---chenmichong
+LogMessageTime:2015-06-14 22:06:19
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2015-06-14 22:06:19
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2015-06-14 22:06:19
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2015-06-14 22:06:19
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2015-06-14 22:06:19
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2015-06-14 22:06:19
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2015-06-14 22:06:19
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2015-06-14 22:06:19
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2015-06-14 22:06:21
+LogMessageType:Success
+LogMessageContent:UploadDataOne:Success---chenmichong
+LogMessageTime:2015-06-14 22:06:31
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2015-06-14 22:06:36
+LogMessageType:Success
+LogMessageContent:UploadDataOne:Success---110000014
+LogMessageTime:2015-06-14 22:07:05
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2015-06-14 22:07:12
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2015-06-14 22:07:12
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2015-06-14 22:07:12
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2015-06-14 22:07:12
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2015-06-14 22:07:12
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2015-06-14 22:07:12
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2015-06-14 22:07:12
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2015-06-14 22:07:12
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2015-06-14 22:07:20
+LogMessageType:Error
+LogMessageContent:UploadDataOne调用的目标发生了异常。
+LogMessageTime:2015-06-14 22:16:18
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2015-06-14 22:16:18
+LogMessageType:Unknown
+LogMessageContent:1
+LogMessageTime:2015-06-14 22:16:18
+LogMessageType:Unknown
+LogMessageContent:2
+LogMessageTime:2015-06-14 22:16:18
+LogMessageType:Unknown
+LogMessageContent:3
+LogMessageTime:2015-06-14 22:16:18
+LogMessageType:Unknown
+LogMessageContent:4
+LogMessageTime:2015-06-14 22:16:18
+LogMessageType:Unknown
+LogMessageContent:5
+LogMessageTime:2015-06-14 22:16:18
+LogMessageType:Unknown
+LogMessageContent:6
+LogMessageTime:2015-06-14 22:16:18
+LogMessageType:Unknown
+LogMessageContent:After
+LogMessageTime:2015-06-14 22:16:34
+LogMessageType:Error
+LogMessageContent:UploadDataOne调用的目标发生了异常。
+LogMessageTime:2015-06-14 22:16:38
+LogMessageType:Unknown
+LogMessageContent:Before
+LogMessageTime:2015-06-14 22:18:16
+LogMessageType:Success
+LogMessageContent:UploadDataOne:Success---isFromSQL---chenmichong
+LogMessageTime:2015-06-14 22:18:45
+LogMessageType:Success
+LogMessageContent:UploadDataOne:Success---isFromSQL---chenmichong
+LogMessageTime:2015-06-14 22:18:53
+LogMessageType:Success
+LogMessageContent:UploadDataOne:Success---isFromSQL---110000014
+LogMessageTime:2015-06-14 22:18:53
+LogMessageType:Success
+LogMessageContent:上传考勤记录成功！

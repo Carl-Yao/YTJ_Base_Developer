@@ -1,0 +1,7 @@
+C:\Users\User\Desktop\ytjnet\tags\SwipCardSystemBase1.0.0.150406\KaoqinSystem\bin\Debug\SCKeeper.exe
+C:\Users\User\Desktop\ytjnet\tags\SwipCardSystemBase1.0.0.150406\KaoqinSystem\bin\Debug\SCKeeper.pdb
+C:\Users\User\Desktop\ytjnet\tags\SwipCardSystemBase1.0.0.150406\SCKeeper\obj\x86\Debug\SCKeeper.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\ytjnet\tags\SwipCardSystemBase1.0.0.150406\SCKeeper\obj\x86\Debug\SCKeeper.Properties.Resources.resources
+C:\Users\User\Desktop\ytjnet\tags\SwipCardSystemBase1.0.0.150406\SCKeeper\obj\x86\Debug\SCKeeper.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\ytjnet\tags\SwipCardSystemBase1.0.0.150406\SCKeeper\obj\x86\Debug\SCKeeper.exe
+C:\Users\User\Desktop\ytjnet\tags\SwipCardSystemBase1.0.0.150406\SCKeeper\obj\x86\Debug\SCKeeper.pdb
